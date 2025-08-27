@@ -11,14 +11,14 @@ export default function Home() {
           alt="Hero"
           fill
           style={{ objectFit: "cover" }}
-          className="brightness-60"
+          className="brightness-80"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/100 to-transparent"></div>
       </div>
 
       {/* HERO SECTION */}
       <div className="relative flex justify-center items-center h-full px-6">
-        <div className="p-8 md:p-12 border-5 border-red-900 h-160 w-350 flex flex-col justify-center">
+        <div className="p-8 mt-20 md:p-12 border-5 border-red-900 h-200 w-360 flex flex-col justify-center">
           {/* MAIN HEADING */}
           <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide mb-4 max-w-2xl text-left">
             Providing homes to our heroes and communities in Dallas, Texas.

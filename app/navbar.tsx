@@ -19,12 +19,15 @@ export default function Navbar() {
 
       {/* NAV ITEMS */}
       <div className="flex gap-12 text-2xl font-bold absolute left-1/2 transform -translate-x-1/2">
-        <Link href="/" className="hover:underline hover:underline-offset-4">
+        <Link
+          href="/"
+          className="hover:text-gray-400 transition-colors duration-200"
+        >
           Home
         </Link>
         <Link
           href="/about"
-          className="hover:underline hover:underline-offset-4"
+          className="hover:text-gray-400 transition-colors duration-200"
         >
           About
         </Link>
