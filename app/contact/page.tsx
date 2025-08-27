@@ -1,3 +1,3 @@
 export default async function Contact() {
-  return <div></div>;
+  return <div>Contact page</div>;
 }
