@@ -33,9 +33,9 @@ export default function Navbar() {
       {/* CONTACT BUTTON */}
       <Link
         href="/contact"
-        className="bg-red-700 hover:bg-red-800 text-white px-8 py-2 rounded-xl text-lg font-semibold transition"
+        className="bg-red-700 hover:bg-red-800 text-white px-8 py-2 rounded-md text-lg font-semibold transition"
       >
-        CONTACT US
+        Contact Us
       </Link>
     </nav>
   );
