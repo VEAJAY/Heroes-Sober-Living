@@ -1,7 +1,13 @@
-import type { NextConfig } from "next";
+import { hostname } from "os";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  turbopack: {
+    root: "C:\\Users\\vease\\OneDrive\\Documents\\heroes-sober-living",
+  },
+  images: {
+    remotePatterns: [{ hostname: "" }],
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
