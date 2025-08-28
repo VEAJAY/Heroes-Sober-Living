@@ -20,25 +20,25 @@ export default function Navbar() {
       {/* NAV ITEMS */}
       <div className="flex gap-24 text-xl font-serif absolute left-1/2 transform -translate-x-1/2">
         <Link
-          href="/"
+          href="/about"
           className="hover:text-gray-400 transition-colors duration-200"
         >
           About
         </Link>
         <Link
-          href="/"
+          href="/living"
           className="hover:text-gray-400 transition-colors duration-200"
         >
           Living Options
         </Link>
         <Link
-          href="/"
+          href="/news"
           className="hover:text-gray-400 transition-colors duration-200"
         >
           News Letter
         </Link>
         <Link
-          href="/"
+          href="/residents"
           className="hover:text-gray-400 transition-colors duration-200"
         >
           Residents

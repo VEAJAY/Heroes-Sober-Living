@@ -61,7 +61,7 @@ export default function Home() {
           </h1>
 
           <Link
-            href="/"
+            href="/living"
             className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-[-42px] text-white text-xl font-sans hover:text-gray-400 transition-colors duration-200"
           >
             More Options
@@ -77,7 +77,7 @@ export default function Home() {
           </h1>
 
           <Link
-            href="/"
+            href="/living"
             className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-[-42px] text-white text-xl font-sans hover:text-gray-400 transition-colors duration-200"
           >
             More Options
@@ -166,13 +166,13 @@ export default function Home() {
           </div>
         </div>
 
-        <h3 className="text-white text-xl max-w-xl">
+        <h3 className="text-white font-serif text-2xl max-w-2xl">
           View our updates on new and upcoming services in our news letter. Stay
           up to date and give us any feedback!
         </h3>
         <Link
-          href="/"
-          className="bg-white hover:bg-gray-200 m-6 px-8 py-2 rounded-md text-lg font-semibold transition"
+          href="/news"
+          className="bg-white hover:bg-gray-200 m-6 px-8 py-4 rounded-md text-lg font-semibold transition"
         >
           NEWS LETTER
         </Link>
