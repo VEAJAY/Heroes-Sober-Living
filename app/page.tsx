@@ -3,49 +3,52 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="relative w-full h-[50vh]">
-      {/* BACKGROUND IMAGE */}
-      <div className="absolute inset-0">
-        <Image
-          src="/hero-image.jpg"
-          alt="Hero"
-          fill
-          style={{ objectFit: "cover" }}
-          className="brightness-100"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/100 to-transparent"></div>
-      </div>
-
+    <main className="w-full">
       {/* HERO SECTION */}
-      <div className="relative flex justify-center items-center h-full px-6">
-        <div className="p-8 mt-20 md:p-12 border-5 border-red-900 h-200 w-360 flex flex-col justify-center">
-          {/* MAIN HEADING */}
-          <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide mb-4 max-w-2xl text-left">
-            Providing homes to our heroes and communities in Dallas, Texas.
-          </h1>
-
-          {/* SUB-HEADING */}
-          <h2 className="text-white text-lg md:text-xl lg:text-2xl font-serif mb-6 max-w-lg text-left">
-            Reach out to us for availability, where we can help you with your
-            living needs.
-          </h2>
-
-          {/* BUTTON */}
-          <Link
-            href="/contact"
-            className="bg-red-700 hover:bg-red-800 text-white px-8 py-3 rounded-md text-lg font-semibold transition w-max"
-          >
-            Reach Out
-          </Link>
+      <section className="relative w-full h-[50vh]">
+        {/* BACKGROUND IMAGE */}
+        <div className="absolute inset-0">
+          <Image
+            src="/hero-image.jpg"
+            alt="Hero"
+            fill
+            style={{ objectFit: "cover" }}
+            className="brightness-100"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/100 to-transparent"></div>
         </div>
-      </div>
+
+        {/* HERO CONTENT */}
+        <div className="relative flex justify-center items-center h-full px-6">
+          <div className="p-8 mt-20 md:p-12 border-5 border-red-900 h-200 w-360 flex flex-col justify-center">
+            {/* MAIN HEADING */}
+            <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide mb-4 max-w-2xl text-left">
+              Providing homes to our heroes and communities in Dallas, Texas.
+            </h1>
+
+            {/* SUB-HEADING */}
+            <h2 className="text-white text-lg md:text-xl lg:text-2xl font-serif mb-6 max-w-lg text-left">
+              Reach out to us for availability, where we can help you with your
+              living needs.
+            </h2>
+
+            {/* BUTTON */}
+            <Link
+              href="/contact"
+              className="bg-red-700 hover:bg-red-800 text-white px-8 py-3 rounded-md text-lg font-semibold transition w-max"
+            >
+              Reach Out
+            </Link>
+          </div>
+        </div>
+      </section>
 
       {/* LIVING OPTIONS SPLASHSCREEN */}
-      <div className="mt-20 flex flex-col items-center text-center gap-4">
-        <h1 className="m-6 font-serif font-semibold text-4xl">
+      <section className="mt-20 flex flex-col items-center text-center gap-4">
+        <h1 className="mt-6 font-serif font-semibold text-4xl">
           Living Your Way
         </h1>
-        <span className="absolute -bottom-42 left-1/2 transform -translate-x-1/2 w-14 h-1 bg-gray-900"></span>
+        <div className="w-16 border-b-4 border-gray-900"></div>
         <h3 className="mt-8 text-xl max-w-4xl">
           Explore the living options that we provide that fits your specific
           needs. We want to give you confidance that our services are in line
@@ -83,10 +86,10 @@ export default function Home() {
             More Options
           </Link>
         </div>
-      </div>
+      </section>
 
       {/* AMENITIES */}
-      <div className="mt-24 bg-gray-900 flex flex-col text-center items-center justify-center">
+      <section className="mt-24 bg-gray-900 flex flex-col text-center items-center justify-center">
         <h1 className="mt-18 text-4xl text-white font-serif font-semibold relative inline-block">
           Amenities
           <span className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-14 h-1 bg-white"></span>
@@ -112,11 +115,14 @@ export default function Home() {
                 Transportation
               </h3>
               <p className="text-gray-700 text-xl">
-                Our transportation services make it easy for residents to get
-                where they need to go. Whether it’s attending appointments,
-                running errands, or participating in community events, our
-                reliable and safe transportation ensures everyone can stay
-                active and independent without worry.
+                Our transportation services are designed to make travel simple
+                and convenient for all residents. Whether attending medical
+                appointments, completing errands, or enjoying community events,
+                our dependable and safe transportation options ensure that
+                everyone can move around with ease. By providing reliable rides,
+                we help residents maintain an active lifestyle and preserve
+                their independence, giving them peace of mind and the confidence
+                to participate fully in daily life.
               </p>
             </div>
           </div>
@@ -135,11 +141,14 @@ export default function Home() {
                 Food Services
               </h3>
               <p className="text-gray-700 text-xl">
-                We provide nutritious meals and snacks designed to meet the
-                needs of our residents. Our food assistance program ensures that
-                everyone has access to healthy, balanced meals, promoting
-                overall well-being while taking the stress out of daily meal
-                planning.
+                We offer a variety of nutritious meals and snacks tailored to
+                meet the dietary needs of our residents. Our food assistance
+                program guarantees that every individual has access to
+                well-balanced, wholesome meals, supporting overall health and
+                wellness. By taking the stress out of meal planning, we help
+                residents enjoy flavorful, nourishing food daily, promoting
+                energy, vitality, and a sense of comfort in knowing that their
+                nutritional needs are consistently met.
               </p>
             </div>
           </div>
@@ -156,11 +165,15 @@ export default function Home() {
             <div className="p-6 flex flex-col gap-4">
               <h3 className="text-xl font-semibold font-serif">Common Area</h3>
               <p className="text-gray-700 text-xl">
-                Our warm and inviting common area is a place for residents to
-                relax, socialize, and connect with one another. With comfortable
-                seating, recreational activities, and a friendly atmosphere, it
-                fosters a sense of community and belonging for everyone who
-                calls our group home their home.
+                Our welcoming common area serves as a hub for relaxation,
+                socialization, and connection among residents. With cozy
+                seating, engaging recreational activities, and a warm, friendly
+                atmosphere, it encourages interaction and the development of
+                meaningful relationships. This inviting space helps foster a
+                sense of community and belonging, giving everyone who lives in
+                our group home a place to unwind, connect, and feel truly at
+                home in an environment that values comfort, companionship, and
+                engagement.
               </p>
             </div>
           </div>
@@ -172,11 +185,147 @@ export default function Home() {
         </h3>
         <Link
           href="/news"
-          className="bg-white hover:bg-gray-200 m-6 px-8 py-4 rounded-md text-lg font-semibold transition"
+          className="bg-white hover:bg-gray-200 mt-6 mb-12 px-8 py-4 rounded-md text-lg font-semibold transition"
         >
           NEWS LETTER
         </Link>
-      </div>
+      </section>
+
+      {/* HOW TO */}
+      <section className="mt-24 flex flex-col text-center items-center justify-center border-5 border-red-900 mx-12 pb-12">
+        <h1 className="mt-18 text-gray-900 text-5xl font-serif font-semibold relative inline-block">
+          Want To Know How To Start With Us?
+        </h1>
+        <div className="w-24 mt-8 border-b-4 border-gray-900"></div>
+        <h3 className="mt-8 text-2xl max-w-2xl">
+          It is easier than ever to join a community that is right for you, with
+          all the support needed through your journey.
+        </h3>
+
+        <div className="flex flex-col items-center justify-center text-center mt-6 p-16">
+          {/* STEP 1 */}
+          <div className="flex items-center justify-center w-20 h-20 rounded-full border-3 border-red-900 text-6xl font-serif mb-6">
+            1
+          </div>
+          <p className="text-2xl max-w-lg font-semibold font-serif">
+            Reach out to us through our link and fill out the form. Ensure all
+            information is accurate!
+          </p>
+          <div className="w-240 my-12 border-b-2 border-gray-800"></div>
+
+          {/* STEP 2 */}
+          <div className="flex items-center justify-center w-20 h-20 rounded-full border-3 border-red-900 text-6xl font-serif mb-6">
+            2
+          </div>
+          <p className="text-2xl max-w-xl font-semibold font-serif">
+            Look out for a message from us to schedule a home visit to make sure
+            this is the right place for you or your family.
+          </p>
+          <div className="w-240 my-12 border-b-2 border-gray-800"></div>
+
+          {/* STEP 3 */}
+          <div className="flex items-center justify-center w-20 h-20 rounded-full border-3 border-red-900 text-6xl font-serif mb-6">
+            3
+          </div>
+          <p className="text-2xl max-w-xl font-semibold font-serif">
+            Visit us in-person and solidify your life with caregivers,
+            communities and Heroes!
+          </p>
+          <div className="w-240 mt-12 border-b-2 border-gray-800"></div>
+        </div>
+
+        <Link
+          href="/contact"
+          className="bg-gray-900 hover:bg-gray-800 text-white px-10 py-4 rounded-md text-xl font-semibold transition"
+        >
+          START HERE
+        </Link>
+      </section>
+
+      {/* ABOUT THE AREA */}
+      <section className="p-12 pb-24 mt-24 bg-red-900 flex flex-col text-center items-center justify-center">
+        <h1 className="mt-18 text-white text-5xl font-serif font-semibold relative inline-block">
+          Find Out What Greenville, Texas Has To Offer
+        </h1>
+        <div className="w-24 mt-12 border-b-4 border-white"></div>
+
+        <h3 className="m-12 text-2xl text-white max-w-4xl leading-relaxed">
+          <i>Heroes & Sober Living</i> is a warm, family-driven living community
+          in Greenville, Texas just shy of 40 minutes east of Dallas, Texas. We
+          provide a safe, caring home for our residents who are recovering and
+          those who have served our country. We are doing our part to aid you
+          and your community.
+        </h3>
+
+        {/* CARDS CONTAINER */}
+        <div className="flex flex-wrap justify-center gap-12 w-full max-w-5xl">
+          {/* CARD 1 */}
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden w-[45%]">
+            <Image
+              src="/red-family-one.jpg"
+              alt="caretaker"
+              width={400}
+              height={250}
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6 flex flex-col gap-4">
+              <h3 className="text-xl font-semibold font-serif">
+                Health & Wellness
+              </h3>
+              <p className="text-gray-700 text-xl">
+                We believe that everyone deserves a second chance, especially
+                those who are actively looking to conserve their health and
+                wellness.
+              </p>
+            </div>
+          </div>
+
+          {/* CARD 2 */}
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden w-[45%]">
+            <Image
+              src="/red-family-two.jpg"
+              alt="caretaker"
+              width={400}
+              height={250}
+              className="w-full h-64 object-cover"
+            />
+            <div className="p-6 flex flex-col gap-4">
+              <h3 className="text-xl font-semibold font-serif">
+                Serve Those Who Serve Us
+              </h3>
+              <p className="text-gray-700 text-xl">
+                We offer services to those who have served us and their country,
+                giving those who are honored an opportunity to start again.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* JOIN US */}
+      <section className="my-72 p-12 flex flex-col md:flex-row items-center justify-center gap-20 max-w-7xl mx-auto">
+        <div className="relative flex-shrink-0">
+          <Image
+            src="/old-family.jpg"
+            alt="family"
+            width={600}
+            height={600}
+            className="rounded-lg object-cover shadow-[30px_30px_0_rgba(0,0,7,0.1)]"
+          />
+        </div>
+
+        <div className="text-center md:text-left">
+          <h1 className="text-5xl text-gray-900 font-serif font-semibold mb-4">
+            Become A Part of Our Family, At Heroes & Sober Living
+          </h1>
+          <p className="text-xl text-gray-700 max-w-lg">
+            Join our warm, family-driven community in Greenville, Texas. We
+            provide a safe, caring environment for residents who are recovering
+            and those who have served our country, helping everyone thrive in a
+            supportive and welcoming home.
+          </p>
+        </div>
+      </section>
     </main>
   );
 }

@@ -32,7 +32,7 @@ export default function NewsLetter() {
 
           {/* BUTTON */}
           <Link
-            href="/news"
+            href="/residents"
             className="bg-red-700 hover:bg-red-800 text-white px-8 py-3 rounded-md text-lg font-semibold transition w-max"
           >
             Let Us Hear From You

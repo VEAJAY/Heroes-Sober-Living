@@ -1,9 +1,9 @@
 import Message from "../components/message";
 
-export default async function Contact() {
+export default function Privacy() {
   return (
     <div>
-      <Message title="Contact!" />
+      <Message title="Attention!" />
     </div>
   );
 }
