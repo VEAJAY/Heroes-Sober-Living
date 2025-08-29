@@ -1,3 +1,9 @@
+import Message from "../components/message";
+
 export default function Residents() {
-  return <div>Residents page</div>;
+  return (
+    <div>
+      <Message title="Residents" />
+    </div>
+  );
 }
