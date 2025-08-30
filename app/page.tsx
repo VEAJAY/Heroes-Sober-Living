@@ -194,45 +194,45 @@ export default function Home() {
       </section>
 
       {/* HOW TO */}
-      <section className="mt-24 flex flex-col text-center items-center justify-center border-5 border-red-900 mx-12 pb-12">
-        <h1 className="mt-18 text-gray-900 text-5xl font-serif font-semibold relative inline-block">
+      <section className="mt-4 sm:mt-24 flex flex-col text-center items-center justify-center border-5 border-red-900 mx-4 sm:mx-12 pb-12">
+        <h1 className="mt-18 text-gray-900 text-2xl sm:text-5xl font-serif font-semibold relative inline-block">
           Want To Know How To Start With Us?
         </h1>
         <div className="w-24 mt-8 border-b-4 border-gray-900"></div>
-        <h3 className="mt-8 text-2xl max-w-2xl">
+        <h3 className="mt-8 px-4 sm:text-2xl max-w-2xl">
           It is easier than ever to join a community that is right for you, with
           all the support needed through your journey.
         </h3>
 
-        <div className="flex flex-col items-center justify-center text-center mt-6 p-16">
+        <div className="flex flex-col items-center justify-center text-center sm:mt-6 p-12 sm:p-16">
           {/* STEP 1 */}
           <div className="flex items-center justify-center w-20 h-20 font-serif mb-6">
             <Star className="absolute text-red-900 !w-32 !h-32" />
             <span className="relative text-white text-5xl">1</span>
           </div>
-          <p className="text-2xl max-w-lg font-semibold font-serif">
+          <p className="sm:text-2xl max-w-xs sm:max-w-lg font-semibold font-serif">
             Reach out to us through our link and fill out the form. Ensure all
             information is accurate!
           </p>
-          <div className="w-240 my-12 border-b-2 border-gray-800"></div>
+          <div className="w-60 sm:w-240 my-12 border-b-2 border-gray-800"></div>
 
           {/* STEP 2 */}
           <div className="flex items-center justify-center w-20 h-20 font-serif mb-6">
             <Star className="absolute text-red-900 !w-32 !h-32" />
             <span className="relative text-white text-5xl">2</span>
           </div>
-          <p className="text-2xl max-w-xl font-semibold font-serif">
+          <p className="sm:text-2xl max-w-xs sm:max-w-lg font-semibold font-serif">
             Look out for a message from us to schedule a home visit to make sure
             this is the right place for you or your family.
           </p>
-          <div className="w-240 my-12 border-b-2 border-gray-800"></div>
+          <div className="w-60 sm:w-240 my-12 border-b-2 border-gray-800"></div>
 
           {/* STEP 3 */}
           <div className="flex items-center justify-center w-20 h-20 font-serif mb-6">
             <Star className="absolute text-red-900 !w-32 !h-32" />
             <span className="relative text-white text-5xl">3</span>
           </div>
-          <p className="text-2xl max-w-xl font-semibold font-serif">
+          <p className="sm:text-2xl max-w-xs sm:max-w-lg font-semibold font-serif">
             Visit us in-person and solidify your life with caregivers,
             communities and Heroes!
           </p>
@@ -241,7 +241,7 @@ export default function Home() {
 
         <Link
           href="/contact"
-          className="bg-gray-900 hover:bg-gray-800 text-white px-10 py-4 rounded-md text-xl font-semibold transition"
+          className="bg-gray-900 hover:bg-gray-800 text-white px-5 py-2 sm:px-10 sm:py-4 rounded-md text-xl font-semibold transition"
         >
           START HERE
         </Link>
