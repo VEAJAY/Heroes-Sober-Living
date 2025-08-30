@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -16,9 +17,13 @@ export default function Navbar() {
             className="h-25 w-auto hidden sm:block"
           />
         </Link>
-        <h1 className="font-serif font-bold text-md sm:hidden">
-          Heroes & Sober Living
-        </h1>
+        <Link href="/" scroll={false}>
+          <div onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+            <h1 className="font-serif font-bold text-md sm:hidden">
+              Heroes & Sober Living
+            </h1>
+          </div>
+        </Link>
       </div>
 
       {/* NAV ITEMS */}
