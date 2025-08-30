@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       {/* LIVING OPTIONS SPLASHSCREEN */}
-      <section className="mt-20 flex flex-col items-center text-center gap-4">
+      <section className="mt-8 sm:mt-20 flex flex-col items-center text-center gap-4">
         <h1 className="sm:mt-6 font-serif font-semibold text-2xl sm:text-4xl">
           Living Your Way
         </h1>

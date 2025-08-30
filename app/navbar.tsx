@@ -4,10 +4,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-900 text-white flex items-center justify-between px-10 py-2 border-b-4 sm:border-b-8 border-red-900 h-15 sm:h-30">
+    <nav className="fixed sm:static top-0 left-0 w-full bg-gray-900 text-white flex items-center justify-between px-4 sm:px-10 py-2 border-b-4 sm:border-b-8 border-red-900 h-15 sm:h-30 z-50">
       {/* LOGO */}
       <div className="flex">
-        <Link href={"/"}>
+        <Link href="/">
           <Image
             src="/white-logo.png"
             alt="logo"
@@ -16,10 +16,13 @@ export default function Navbar() {
             className="h-25 w-auto hidden sm:block"
           />
         </Link>
+        <h1 className="font-serif font-bold text-md sm:hidden">
+          Heroes & Sober Living
+        </h1>
       </div>
 
       {/* NAV ITEMS */}
-      <div className="hidden sm:flex sm:gap-6 lg:gap-24 text-xl font-serif absolute left-1/2 transform -translate-x-1/2">
+      <div className="hidden sm:flex sm:gap-6 lg:gap-24 text-xl font-serif sm:absolute sm:left-1/2 sm:transform sm:-translate-x-1/2">
         <Link
           href="/about"
           className="hover:text-gray-400 transition-colors duration-200"
@@ -46,7 +49,6 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* CONTACT BUTTON */}
       <Link
         href="/contact"
         className="hidden sm:block bg-red-700 hover:bg-red-800 text-white px-8 py-2 rounded-md text-lg font-semibold transition"
@@ -54,10 +56,9 @@ export default function Navbar() {
         Contact Us
       </Link>
 
-      {/* MOBILE MENU ICON */}
-      <div className="sm:hidden absolute right-4 top-3 cursor-pointer">
+      {/* MENU */}
+      <div className="sm:hidden z-50">
         <MenuIcon className="text-white" fontSize="large" />
-        {/* Swap with <CloseIcon /> when menu is open */}
       </div>
     </nav>
   );
