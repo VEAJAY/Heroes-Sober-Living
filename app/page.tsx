@@ -92,17 +92,17 @@ export default function Home() {
 
       {/* AMENITIES */}
       <section className="mt-24 bg-gray-900 flex flex-col text-center items-center justify-center">
-        <h1 className="mt-18 text-4xl text-white font-serif font-semibold relative inline-block">
+        <h1 className="mt-18 text-2xl sm:text-4xl text-white font-serif font-semibold relative inline-block">
           Amenities
           <span className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-14 h-1 bg-white"></span>
         </h1>
-        <h3 className="mt-12 text-xl text-white max-w-2xl">
+        <h3 className="mt-12 px-6 sm:text-xl text-white sm:max-w-2xl">
           Enjoy some of our amenities that we offer such as transportation
           assistance, food assistance, and a warm and welcoming common area.
         </h3>
 
         {/* GRID WRAPPER */}
-        <div className="my-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="my-16 mx-4 grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* AMENITIES CARD */}
           <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden max-w-sm mx-auto">
             <Image
@@ -116,7 +116,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold font-serif">
                 Transportation
               </h3>
-              <p className="text-gray-700 text-2xl">
+              <p className="text-gray-700 sm:text-2xl">
                 Our transportation services are designed to make travel simple
                 and convenient for all residents. Whether attending medical
                 appointments, completing errands, or enjoying community events,
@@ -142,7 +142,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold font-serif">
                 Food Services
               </h3>
-              <p className="text-gray-700 text-2xl">
+              <p className="text-gray-700 sm:text-2xl">
                 We offer a variety of nutritious meals and snacks tailored to
                 meet the dietary needs of our residents. Our food assistance
                 program guarantees that every individual has access to
@@ -166,7 +166,7 @@ export default function Home() {
             />
             <div className="p-7 flex flex-col gap-4">
               <h3 className="text-xl font-semibold font-serif">Common Area</h3>
-              <p className="text-gray-700 text-2xl">
+              <p className="text-gray-700 sm:text-2xl">
                 Our welcoming common area serves as a hub for relaxation,
                 socialization, and connection among residents. With cozy
                 seating, engaging recreational activities, and a warm, friendly
@@ -181,13 +181,13 @@ export default function Home() {
           </div>
         </div>
 
-        <h3 className="text-white font-serif text-2xl max-w-2xl">
+        <h3 className="text-white font-serif px-8 sm:text-2xl max-w-2xl">
           View our updates on new and upcoming services in our news letter. Stay
           up to date and give us any feedback!
         </h3>
         <Link
           href="/news"
-          className="bg-white hover:bg-gray-200 mt-6 mb-12 px-8 py-4 rounded-md text-lg font-semibold transition"
+          className="bg-white hover:bg-gray-200 mt-6 mb-12 px-4 py-2 sm:px-8 sm:py-4 rounded-md text-lg font-semibold transition"
         >
           NEWS LETTER
         </Link>
