@@ -1,5 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
+import Email from "@mui/icons-material/Email";
+import Phone from "@mui/icons-material/Phone";
+import LocationOn from "@mui/icons-material/LocationOn";
 
 export default function Footer() {
   return (
@@ -48,12 +51,26 @@ export default function Footer() {
         </div>
 
         {/* CONTACT INFO */}
-        <div className="flex flex-col text-left space-y-2 text-lg font-serif">
-          <p>veteranssoberliving@gmail.com</p>
-          <p className="font-sans">(469) 456-6032</p>
-          <p className="font-sans">(903) 441-7512</p>
+        <div className="flex flex-col text-left space-y-4 text-lg font-serif">
+          <div className="flex items-center space-x-3">
+            <Email className="text-white !w-6 !h-6" />
+            <p>veteranssoberliving@gmail.com</p>
+          </div>
 
-          <h3>Greenville, Texas 75401</h3>
+          <div className="flex items-center space-x-3">
+            <Phone className="text-white !w-6 !h-6" />
+            <p className="font-sans">(469) 456-6032</p>
+          </div>
+
+          <div className="flex items-center space-x-3">
+            <Phone className="text-white !w-6 !h-6" />
+            <p className="font-sans">(903) 441-7512</p>
+          </div>
+
+          <div className="flex items-center space-x-3">
+            <LocationOn className="text-white !w-6 !h-6" />
+            <h3>Greenville, Texas 75401</h3>
+          </div>
         </div>
       </div>
 

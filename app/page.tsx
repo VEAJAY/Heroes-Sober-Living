@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
+import Star from "@mui/icons-material/Star";
 
 export default function Home() {
   return (
@@ -110,11 +112,11 @@ export default function Home() {
               height={250}
               className="w-full h-64 object-cover"
             />
-            <div className="p-6 flex flex-col gap-4">
+            <div className="p-7 flex flex-col gap-4">
               <h3 className="text-xl font-semibold font-serif">
                 Transportation
               </h3>
-              <p className="text-gray-700 text-xl">
+              <p className="text-gray-700 text-2xl">
                 Our transportation services are designed to make travel simple
                 and convenient for all residents. Whether attending medical
                 appointments, completing errands, or enjoying community events,
@@ -136,11 +138,11 @@ export default function Home() {
               height={250}
               className="w-full h-64 object-cover"
             />
-            <div className="p-6 flex flex-col gap-4">
+            <div className="p-7 flex flex-col gap-4">
               <h3 className="text-xl font-semibold font-serif">
                 Food Services
               </h3>
-              <p className="text-gray-700 text-xl">
+              <p className="text-gray-700 text-2xl">
                 We offer a variety of nutritious meals and snacks tailored to
                 meet the dietary needs of our residents. Our food assistance
                 program guarantees that every individual has access to
@@ -162,9 +164,9 @@ export default function Home() {
               height={250}
               className="w-full h-64 object-cover"
             />
-            <div className="p-6 flex flex-col gap-4">
+            <div className="p-7 flex flex-col gap-4">
               <h3 className="text-xl font-semibold font-serif">Common Area</h3>
-              <p className="text-gray-700 text-xl">
+              <p className="text-gray-700 text-2xl">
                 Our welcoming common area serves as a hub for relaxation,
                 socialization, and connection among residents. With cozy
                 seating, engaging recreational activities, and a warm, friendly
@@ -204,8 +206,9 @@ export default function Home() {
 
         <div className="flex flex-col items-center justify-center text-center mt-6 p-16">
           {/* STEP 1 */}
-          <div className="flex items-center justify-center w-20 h-20 rounded-full border-3 border-red-900 text-6xl font-serif mb-6">
-            1
+          <div className="flex items-center justify-center w-20 h-20 font-serif mb-6">
+            <Star className="absolute text-red-900 !w-32 !h-32" />
+            <span className="relative text-white text-5xl">1</span>
           </div>
           <p className="text-2xl max-w-lg font-semibold font-serif">
             Reach out to us through our link and fill out the form. Ensure all
@@ -214,8 +217,9 @@ export default function Home() {
           <div className="w-240 my-12 border-b-2 border-gray-800"></div>
 
           {/* STEP 2 */}
-          <div className="flex items-center justify-center w-20 h-20 rounded-full border-3 border-red-900 text-6xl font-serif mb-6">
-            2
+          <div className="flex items-center justify-center w-20 h-20 font-serif mb-6">
+            <Star className="absolute text-red-900 !w-32 !h-32" />
+            <span className="relative text-white text-5xl">2</span>
           </div>
           <p className="text-2xl max-w-xl font-semibold font-serif">
             Look out for a message from us to schedule a home visit to make sure
@@ -224,14 +228,15 @@ export default function Home() {
           <div className="w-240 my-12 border-b-2 border-gray-800"></div>
 
           {/* STEP 3 */}
-          <div className="flex items-center justify-center w-20 h-20 rounded-full border-3 border-red-900 text-6xl font-serif mb-6">
-            3
+          <div className="flex items-center justify-center w-20 h-20 font-serif mb-6">
+            <Star className="absolute text-red-900 !w-32 !h-32" />
+            <span className="relative text-white text-5xl">3</span>
           </div>
           <p className="text-2xl max-w-xl font-semibold font-serif">
             Visit us in-person and solidify your life with caregivers,
             communities and Heroes!
           </p>
-          <div className="w-240 mt-12 border-b-2 border-gray-800"></div>
+          {/* <div className="w-240 mt-12 border-b-2 border-gray-800"></div> */}
         </div>
 
         <Link
@@ -243,7 +248,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT THE AREA */}
-      <section className="p-12 pb-24 mt-24 bg-red-900 flex flex-col text-center items-center justify-center">
+      <section className="p-12 pb-18 mt-24 bg-red-900 flex flex-col text-center items-center justify-center">
         <h1 className="mt-18 text-white text-5xl font-serif font-semibold relative inline-block">
           Find Out What Greenville, Texas Has To Offer
         </h1>
@@ -260,7 +265,7 @@ export default function Home() {
         {/* CARDS CONTAINER */}
         <div className="flex flex-wrap justify-center gap-12 w-full max-w-5xl">
           {/* CARD 1 */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden w-[45%]">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden w-[45%]">
             <Image
               src="/red-family-one.jpg"
               alt="caretaker"
@@ -281,7 +286,7 @@ export default function Home() {
           </div>
 
           {/* CARD 2 */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden w-[45%]">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden w-[45%]">
             <Image
               src="/red-family-two.jpg"
               alt="caretaker"
@@ -299,6 +304,11 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+        <div>
+          <Star className="mt-12 text-white !w-18 !h-18" />
+          <Star className="mt-12 text-white !w-32 !h-32" />
+          <Star className="mt-12 text-white !w-18 !h-18" />
         </div>
       </section>
 
@@ -318,7 +328,7 @@ export default function Home() {
           <h1 className="text-5xl text-gray-900 font-serif font-semibold mb-4">
             Become A Part of Our Family, At Heroes & Sober Living
           </h1>
-          <p className="text-xl text-gray-700 max-w-lg">
+          <p className="text-2xl text-gray-700 max-w-lg">
             Join our warm, family-driven community in Greenville, Texas. We
             provide a safe, caring environment for residents who are recovering
             and those who have served our country, helping everyone thrive in a
