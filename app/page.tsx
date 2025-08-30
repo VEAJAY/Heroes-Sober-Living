@@ -92,7 +92,7 @@ export default function Home() {
 
       {/* AMENITIES */}
       <section className="mt-24 bg-gray-900 flex flex-col text-center items-center justify-center">
-        <h1 className="mt-18 text-2xl sm:text-4xl text-white font-serif font-semibold relative inline-block">
+        <h1 className="mt-18 text-3xl sm:text-4xl text-white font-serif font-semibold relative inline-block">
           Amenities
           <span className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-14 h-1 bg-white"></span>
         </h1>
@@ -249,12 +249,12 @@ export default function Home() {
 
       {/* ABOUT THE AREA */}
       <section className="p-12 pb-18 mt-24 bg-red-900 flex flex-col text-center items-center justify-center">
-        <h1 className="mt-18 text-white text-5xl font-serif font-semibold relative inline-block">
+        <h1 className="sm:mt-18 text-white text-2xl sm:text-5xl font-serif font-semibold relative inline-block">
           Find Out What Greenville, Texas Has To Offer
         </h1>
-        <div className="w-24 mt-12 border-b-4 border-white"></div>
+        <div className="w-24 mt-6 sm:mt-12 border-b-4 border-white"></div>
 
-        <h3 className="m-12 text-2xl text-white max-w-4xl leading-relaxed">
+        <h3 className="my-8 sm:m-12 text-xl sm:text-2xl text-white sm:max-w-4xl sm:leading-relaxed">
           <i>Heroes & Sober Living</i> is a warm, family-driven living community
           in Greenville, Texas just shy of 40 minutes east of Dallas, Texas. We
           provide a safe, caring home for our residents who are recovering and
@@ -265,7 +265,7 @@ export default function Home() {
         {/* CARDS CONTAINER */}
         <div className="flex flex-wrap justify-center gap-12 w-full max-w-5xl">
           {/* CARD 1 */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden w-[45%]">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg sm:shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden sm:w-[45%]">
             <Image
               src="/red-family-one.jpg"
               alt="caretaker"
@@ -286,7 +286,7 @@ export default function Home() {
           </div>
 
           {/* CARD 2 */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden w-[45%]">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg sm:shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden sm:w-[45%]">
             <Image
               src="/red-family-two.jpg"
               alt="caretaker"
@@ -313,22 +313,22 @@ export default function Home() {
       </section>
 
       {/* JOIN US */}
-      <section className="my-72 p-12 flex flex-col md:flex-row items-center justify-center gap-20 max-w-7xl mx-auto">
+      <section className="sm:my-72 p-12 flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-20 max-w-7xl mx-auto">
         <div className="relative flex-shrink-0">
           <Image
             src="/old-family.jpg"
             alt="family"
             width={600}
             height={600}
-            className="rounded-lg object-cover shadow-[30px_30px_0_rgba(0,0,7,0.1)]"
+            className="rounded-lg object-cover sm:shadow-[30px_30px_0_rgba(0,0,7,0.1)]"
           />
         </div>
 
-        <div className="text-center md:text-left">
-          <h1 className="text-5xl text-gray-900 font-serif font-semibold mb-4">
+        <div className="sm:text-center md:text-left">
+          <h1 className="text-3xl sm:text-5xl text-gray-900 font-serif font-semibold mb-4">
             Become A Part of Our Family, At Heroes & Sober Living
           </h1>
-          <p className="text-2xl text-gray-700 max-w-lg">
+          <p className="text-xl sm:text-2xl text-gray-700 max-w-lg">
             Join our warm, family-driven community in Greenville, Texas. We
             provide a safe, caring environment for residents who are recovering
             and those who have served our country, helping everyone thrive in a
