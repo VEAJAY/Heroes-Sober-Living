@@ -103,7 +103,7 @@ export default function About() {
 
         <Link
           href="/living"
-          className="bg-gray-900 hover:bg-gray-700 text-white text-xl sm:mt-12 m-6 py-3 px-6 transition rounded-sm flex items-center"
+          className="bg-gray-900 hover:bg-gray-700 text-white text-xl sm:mt-12 m-6 py-3 px-6 sm:px-32 transition rounded-sm flex items-center"
         >
           <span className="block sm:hidden">Learn More</span>
           <span className="hidden sm:block">
@@ -111,6 +111,41 @@ export default function About() {
           </span>
           <ArrowForwardIcon className="text-white ml-2" />
         </Link>
+      </section>
+
+      {/* ABOUT OUR RESIDENTS */}
+      <section className="sm:my-48 p-0 sm:p-12 flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-20 max-w-8xl mx-auto">
+        <div className="relative w-screen md:w-auto">
+          <Image
+            src="/elderly-image.jpg"
+            alt="family"
+            width={700}
+            height={700}
+            style={{ width: "100vw", height: "auto" }} // full width on mobile
+            sizes="(max-width: 768px) 100vw, 700px"
+            className="rounded-none md:rounded-lg object-cover sm:shadow-[30px_30px_0_rgba(0,0,7,0.1)]"
+          />
+        </div>
+
+        <div className="sm:text-center md:text-left px-6 md:px-0">
+          <h1 className="text-3xl sm:text-5xl text-gray-900 font-serif font-semibold mb-4">
+            Become A Part of Our Family, At Heroes & Sober Living
+          </h1>
+          <p className="text-xl sm:text-2xl text-gray-700 max-w-lg">
+            Our residents come from a myriad of backgrounds such as veterans,
+            first responders, and individuals seeking a new path in life. Each
+            person brings their own story and strength, creating a unique and
+            supportive atmosphere.
+          </p>
+          <p className="text-xl sm:text-2xl sm:mt-6 text-gray-700 max-w-lg">
+            We serve an inclusive community built on respect, accountability,
+            and growth, ensuring that everyone feels valued and understood.
+          </p>
+          <p className="text-xl sm:text-2xl sm:mt-6 text-gray-700 max-w-lg">
+            We hope that you choose to take the first step with us and
+            experience a safe, structured environment where you can thrive.
+          </p>
+        </div>
       </section>
     </div>
   );
