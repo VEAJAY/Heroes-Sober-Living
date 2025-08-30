@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import { Head } from "next/document"; // optional if using next/head
 
 export const metadata: Metadata = {
   title: "Heroes Sober Living",

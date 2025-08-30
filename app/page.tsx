@@ -27,6 +27,7 @@ export default function Home() {
             <h1 className="text-white text-lg sm:text-2xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide mb-2 sm:mb-4 max-w-xs sm:max-w-2xl text-center md:text-left">
               Providing homes to our heroes and communities in Dallas, Texas.
             </h1>
+            <div className="sm:hidden w-28 mt-1 mb-4 border-b-2 border-white"></div>
 
             {/* SUB-HEADING */}
             <h2 className="text-white text-sm sm:text-base md:text-xl lg:text-2xl font-serif mb-2 sm:mb-4 max-w-xs sm:max-w-lg text-center md:text-left">

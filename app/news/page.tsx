@@ -25,6 +25,7 @@ export default function NewsLetter() {
             <h1 className="text-white text-lg sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide sm:mb-10 max-w-2xl text-left">
               What's New?
             </h1>
+            <div className="sm:hidden w-28 my-2 border-b-2 border-white"></div>
 
             {/* SUB-HEADING */}
             <h2 className="text-white text-sm sm:text-lg md:text-xl lg:text-3xl font-serif mb-6 max-w-4xl text-center">

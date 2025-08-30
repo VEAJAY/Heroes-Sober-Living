@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import Message from "../components/message";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 export default function About() {
   return (
-    <>
+    <div className="w-full">
       <section className="relative w-full h-[50vh]">
         {/* BACKGROUND IMAGE */}
         <div className="absolute inset-0">
@@ -25,6 +26,7 @@ export default function About() {
             <h1 className="text-white text-lg sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide sm:mb-10 max-w-2xl text-left">
               Our Mission
             </h1>
+            <div className="sm:hidden w-28 my-2 border-b-2 border-white"></div>
 
             {/* SUB-HEADING */}
             <h2 className="text-white text-sm sm:text-lg md:text-xl lg:text-3xl font-serif mb-6 max-w-4xl text-center">
@@ -43,7 +45,73 @@ export default function About() {
           </div>
         </div>
       </section>
-      <Message title="Attention!" />
-    </>
+
+      {/* BENEFITS */}
+      <section className="flex flex-col justify-center items-center sm:mt-32">
+        <h1 className="mt-12 text-2xl text-center sm:text-5xl font-serif font-semibold">
+          Start Health and Wellness Today
+        </h1>
+        <div className="w-16 mt-3 border-b-4 border-gray-900"></div>
+        <p className="flex sm:text-2xl p-6 max-w-2xl text-center">
+          We are here to help keep your journey of health and wellness with our
+          carring services and staff.
+        </p>
+
+        <div className="flex flex-col justify-center text-white bg-gray-900 sm:w-[60%] w-[100%] sm:h-[400px] p-12 sm:mt-16">
+          <p className="text-left sm:text-lg">
+            Heroes Sober & Living resides in the heart of Greenville, Texas,
+            started by a small family who wanted to give back to their community
+            and the members that have served. Our residents are thriving at the
+            benefits that we provide while keeping an engaged, open environment.
+            Don't hesitate to inquire about any of our services.
+          </p>
+          <div className="sm:w-220 my-12 mb-4 border-b-2 border-white"></div>
+
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-lg mt-4">
+            <li className="flex items-center p-4">
+              <ArrowForwardIcon className="text-white mr-2" />
+              Transportation
+            </li>
+            <li className="flex items-center p-4">
+              <ArrowForwardIcon className="text-white mr-2" />
+              Bedding
+            </li>
+            <li className="flex items-center p-4">
+              <ArrowForwardIcon className="text-white mr-2" />
+              Food Meals
+            </li>
+            <li className="flex items-center p-4">
+              <ArrowForwardIcon className="text-white mr-2" />
+              Merchandise
+            </li>
+            <li className="flex items-center p-4">
+              <ArrowForwardIcon className="text-white mr-2" />
+              Donations
+            </li>
+            <li className="flex items-center p-4">
+              <ArrowForwardIcon className="text-white mr-2" />
+              Visitation
+            </li>
+          </ul>
+        </div>
+
+        <p className="text-center sm:mt-18 mt-4 max-w-2xl p-4 sm:text-2xl">
+          We are located just 40 minutes east of central dallas, Greenville,
+          Texas in a nice and inviting town center. We can't wait for you to
+          have a new home
+        </p>
+
+        <Link
+          href="/living"
+          className="bg-gray-900 hover:bg-gray-700 text-white text-xl sm:mt-12 m-6 py-3 px-6 transition rounded-sm flex items-center"
+        >
+          <span className="block sm:hidden">Learn More</span>
+          <span className="hidden sm:block">
+            Learn More About Our Living Options to Begin
+          </span>
+          <ArrowForwardIcon className="text-white ml-2" />
+        </Link>
+      </section>
+    </div>
   );
 }
