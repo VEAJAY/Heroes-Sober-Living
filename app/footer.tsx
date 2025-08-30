@@ -10,7 +10,7 @@ export default function Footer() {
       {/* COLUMNS */}
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
         {/* NAV LINKS */}
-        <div className="flex flex-col items-start space-y-4 text-2xl font-serif">
+        <div className="flex flex-col items-center sm:items-start space-y-4 text-2xl font-serif">
           <Link
             href="/about"
             className="hover:text-gray-400 transition-colors duration-200"

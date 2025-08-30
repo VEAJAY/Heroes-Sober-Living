@@ -263,9 +263,9 @@ export default function Home() {
         </h3>
 
         {/* CARDS CONTAINER */}
-        <div className="flex flex-wrap justify-center gap-12 w-full max-w-5xl">
+        <div className="flex flex-wrap justify-center gap-8 sm:gap-12 w-full max-w-5xl">
           {/* CARD 1 */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg sm:shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden sm:w-[45%]">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg sm:shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden flex-1 min-w-[330px]">
             <Image
               src="/red-family-one.jpg"
               alt="caretaker"
@@ -286,7 +286,7 @@ export default function Home() {
           </div>
 
           {/* CARD 2 */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg sm:shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden sm:w-[45%]">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg sm:shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden flex-1 min-w-[330px]">
             <Image
               src="/red-family-two.jpg"
               alt="caretaker"
@@ -305,7 +305,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="hidden sm:block">
           <Star className="mt-12 text-white !w-18 !h-18" />
           <Star className="mt-12 text-white !w-32 !h-32" />
           <Star className="mt-12 text-white !w-18 !h-18" />
