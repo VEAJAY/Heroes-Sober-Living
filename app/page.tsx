@@ -15,21 +15,21 @@ export default function Home() {
             alt="Hero"
             fill
             style={{ objectFit: "cover" }}
-            className="brightness-100"
+            className="brightness-70 sm:brightness-100"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-black/100 to-transparent"></div>
         </div>
 
         {/* HERO CONTENT */}
         <div className="relative flex justify-center items-center h-full px-6">
-          <div className="p-8 mt-20 md:p-12 border-5 border-red-900 h-200 w-360 flex flex-col justify-center">
+          <div className="p-8 mt-20 md:p-12 lg:border-5 lg:border-red-900 h-200 w-360 flex flex-col justify-center items-center md:items-start">
             {/* MAIN HEADING */}
-            <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide mb-4 max-w-2xl text-left">
+            <h1 className="text-white text-lg sm:text-2xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide mb-2 sm:mb-4 max-w-xs sm:max-w-2xl text-center md:text-left">
               Providing homes to our heroes and communities in Dallas, Texas.
             </h1>
 
             {/* SUB-HEADING */}
-            <h2 className="text-white text-lg md:text-xl lg:text-2xl font-serif mb-6 max-w-lg text-left">
+            <h2 className="text-white text-sm sm:text-base md:text-xl lg:text-2xl font-serif mb-2 sm:mb-4 max-w-xs sm:max-w-lg text-center md:text-left">
               Reach out to us for availability, where we can help you with your
               living needs.
             </h2>
@@ -37,7 +37,7 @@ export default function Home() {
             {/* BUTTON */}
             <Link
               href="/contact"
-              className="bg-red-700 hover:bg-red-800 text-white px-8 py-3 rounded-md text-lg font-semibold transition w-max"
+              className="bg-red-700 hover:bg-red-800 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-md text-sm sm:text-base font-semibold transition w-max"
             >
               Reach Out
             </Link>
@@ -47,11 +47,11 @@ export default function Home() {
 
       {/* LIVING OPTIONS SPLASHSCREEN */}
       <section className="mt-20 flex flex-col items-center text-center gap-4">
-        <h1 className="mt-6 font-serif font-semibold text-4xl">
+        <h1 className="sm:mt-6 font-serif font-semibold text-2xl sm:text-4xl">
           Living Your Way
         </h1>
         <div className="w-16 border-b-4 border-gray-900"></div>
-        <h3 className="mt-8 text-xl max-w-4xl">
+        <h3 className="sm:mt-8 text-md p-6 sm:text-xl max-w-4xl">
           Explore the living options that we provide that fits your specific
           needs. We want to give you confidance that our services are in line
           with your pricing expectations.
