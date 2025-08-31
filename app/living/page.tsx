@@ -145,7 +145,7 @@ export default function LivingOptions() {
             title="Honorary Living Option"
             price="$1695"
             buttonText="Get Started"
-            link="/living"
+            link="/residents"
             benefits={[
               "Comfortable, fully furnished private rooms",
               "Access to community meals and group activities",
@@ -157,7 +157,7 @@ export default function LivingOptions() {
             title="Premium Living Option"
             price="$2500"
             buttonText="Get Started"
-            link="/living"
+            link="/residents"
             benefits={[
               "Spacious rooms with upgraded amenities",
               "Personalized wellness and care plans",
@@ -169,7 +169,7 @@ export default function LivingOptions() {
             title="Veteran Living Option"
             price="$1000"
             buttonText="Get Started"
-            link="/living"
+            link="/residents"
             benefits={[
               "Affordable housing for veterans",
               "Peer support groups and counseling",
@@ -181,7 +181,7 @@ export default function LivingOptions() {
             title="Executive Living Option"
             price="$3500"
             buttonText="Get Started"
-            link="/living"
+            link="/residents"
             benefits={[
               "Luxury private suites with premium furnishings",
               "Concierge services for daily needs and errands",
