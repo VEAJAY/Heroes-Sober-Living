@@ -48,7 +48,7 @@ export default function Home() {
 
       {/* LIVING OPTIONS SPLASHSCREEN */}
       <section className="mt-8 sm:mt-20 flex flex-col items-center text-center gap-4">
-        <h1 className="sm:mt-6 font-serif font-semibold text-2xl sm:text-4xl">
+        <h1 className="sm:mt-6 font-serif font-semibold text-2xl sm:text-5xl">
           Living Your Way
         </h1>
         <div className="w-16 border-b-4 border-gray-900"></div>
@@ -93,7 +93,7 @@ export default function Home() {
 
       {/* AMENITIES */}
       <section className="mt-24 bg-gray-900 flex flex-col text-center items-center justify-center">
-        <h1 className="mt-18 text-3xl sm:text-4xl text-white font-serif font-semibold relative inline-block">
+        <h1 className="mt-18 text-3xl sm:text-5xl text-white font-serif font-semibold relative inline-block">
           Amenities
           <span className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-14 h-1 bg-white"></span>
         </h1>
@@ -242,7 +242,7 @@ export default function Home() {
 
         <Link
           href="/contact"
-          className="bg-gray-900 hover:bg-gray-800 text-white px-5 py-2 sm:px-10 sm:py-4 rounded-md text-xl font-semibold transition"
+          className="bg-gray-900 hover:bg-gray-700 text-white px-5 py-2 sm:px-10 sm:py-4 rounded-md text-xl font-semibold transition"
         >
           START HERE
         </Link>
