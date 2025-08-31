@@ -57,43 +57,47 @@ export default function About() {
           carring services and staff.
         </p>
 
-        <div className="flex flex-col justify-center text-white bg-gray-900 sm:w-[1000px] w-[100%] sm:h-[400px] p-12 sm:mt-16 sm:shadow-2xl shadow-black/40">
-          <p className="text-left sm:text-lg">
-            <i>Heroes & Sober Living</i> resides in the heart of Greenville,
-            Texas, started by a small family who wanted to give back to their
-            community and the members that have served. Our residents are
-            thriving at the benefits that we provide while keeping an engaged,
-            open environment. Don't hesitate to inquire about any of our
-            services.
-          </p>
-          <div className="sm:w-220 my-12 mb-4 border-b-2 border-white"></div>
+        <div className="flex flex-col text-white bg-gray-900 sm:w-[1000px] w-full sm:h-auto p-3 sm:p-8 sm:mt-16 sm:shadow-2xl shadow-black/50">
+          {/* Inner Border */}
+          <div className="border-2 sm:border-4 border-white p-6 sm:p-8 flex flex-col justify-start w-full">
+            <p className="text-center sm:text-lg">
+              <i>Heroes & Sober Living</i> resides in the heart of Greenville,
+              Texas, started by a small family who wanted to give back to their
+              community and the members that have served. Our residents are
+              thriving at the benefits that we provide while keeping an engaged,
+              open environment. Don't hesitate to inquire about any of our
+              services.
+            </p>
 
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-lg mt-4">
-            <li className="flex items-center p-4">
-              <ArrowForwardIcon className="text-white mr-2" />
-              Transportation
-            </li>
-            <li className="flex items-center p-4">
-              <ArrowForwardIcon className="text-white mr-2" />
-              Bedding
-            </li>
-            <li className="flex items-center p-4">
-              <ArrowForwardIcon className="text-white mr-2" />
-              Food Meals
-            </li>
-            <li className="flex items-center p-4">
-              <ArrowForwardIcon className="text-white mr-2" />
-              Merchandise
-            </li>
-            <li className="flex items-center p-4">
-              <ArrowForwardIcon className="text-white mr-2" />
-              Donations
-            </li>
-            <li className="flex items-center p-4">
-              <ArrowForwardIcon className="text-white mr-2" />
-              Visitation
-            </li>
-          </ul>
+            <div className="sm:w-220 my-2 border-b-2 border-white"></div>
+
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-lg mt-4">
+              <li className="flex items-center p-4">
+                <ArrowForwardIcon className="text-white mr-2" />
+                Transportation
+              </li>
+              <li className="flex items-center p-4">
+                <ArrowForwardIcon className="text-white mr-2" />
+                Bedding
+              </li>
+              <li className="flex items-center p-4">
+                <ArrowForwardIcon className="text-white mr-2" />
+                Food Meals
+              </li>
+              <li className="flex items-center p-4">
+                <ArrowForwardIcon className="text-white mr-2" />
+                Merchandise
+              </li>
+              <li className="flex items-center p-4">
+                <ArrowForwardIcon className="text-white mr-2" />
+                Donations
+              </li>
+              <li className="flex items-center p-4">
+                <ArrowForwardIcon className="text-white mr-2" />
+                Visitation
+              </li>
+            </ul>
+          </div>
         </div>
 
         <p className="text-center sm:mt-18 mt-4 max-w-2xl p-4 sm:text-2xl">
@@ -123,7 +127,7 @@ export default function About() {
             alt="family"
             width={700}
             height={700}
-            style={{ width: "100%", height: "auto" }} // scales with container
+            style={{ width: "100%", height: "auto" }}
             sizes="(max-width: 768px) 100vw, 700px"
             className="rounded-none md:rounded-lg object-cover sm:shadow-[30px_30px_0_rgba(0,0,7,0.1)]"
           />

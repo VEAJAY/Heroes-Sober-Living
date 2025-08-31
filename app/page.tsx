@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Star from "@mui/icons-material/Star";
+import PlanCard from "./components/plancard";
 
 export default function Home() {
   return (
@@ -59,36 +60,20 @@ export default function Home() {
         </h3>
 
         {/* LIVING OPTION CARD */}
-        <div className="relative m-8 px-6 py-6 sm:px-32 sm:py-12 border-2 border-b-[56px] border-gray-900 font-serif">
-          <h2 className="text-xl sm:text-4xl">Community Living Option</h2>
-          <p className="text-md sm:text-2xl font-sans">Starting at</p>
-          <h1 className="text-6xl sm:text-8xl font-bold sm:mt-8">
-            $800/<span className="text-3xl sm:text-6xl font-normal">mo</span>
-          </h1>
-
-          <Link
-            href="/living"
-            className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-[-42px] text-white sm:text-xl font-sans hover:text-gray-400 transition-colors duration-200"
-          >
-            More Options
-          </Link>
-        </div>
-
-        {/* LIVING OPTION CARD */}
-        <div className="relative m-8 px-6 py-6 sm:px-32 sm:py-12 border-2 border-b-[56px] border-gray-900 font-serif">
-          <h2 className="text-xl sm:text-4xl">Honorary Living Option</h2>
-          <p className="text-md sm:text-2xl font-sans">Starting at</p>
-          <h1 className="text-6xl sm:text-8xl font-bold sm:mt-8">
-            $1695/<span className="text-3xl sm:text-6xl font-normal">mo</span>
-          </h1>
-
-          <Link
-            href="/living"
-            className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-[-42px] text-white sm:text-xl font-sans hover:text-gray-400 transition-colors duration-200"
-          >
-            More Options
-          </Link>
-        </div>
+        <section className="flex flex-col sm:flex-row justify-center items-center">
+          <PlanCard
+            title="Community Living Option"
+            price="$800"
+            buttonText="More Options"
+            link="/living"
+          />
+          <PlanCard
+            title="Honorary Living Option"
+            price="$1695"
+            buttonText="More Options"
+            link="/living"
+          />
+        </section>
       </section>
 
       {/* AMENITIES */}
