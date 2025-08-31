@@ -57,13 +57,14 @@ export default function About() {
           carring services and staff.
         </p>
 
-        <div className="flex flex-col justify-center text-white bg-gray-900 sm:w-[60%] w-[100%] sm:h-[400px] p-12 sm:mt-16">
+        <div className="flex flex-col justify-center text-white bg-gray-900 sm:w-[1000px] w-[100%] sm:h-[400px] p-12 sm:mt-16">
           <p className="text-left sm:text-lg">
-            Heroes Sober & Living resides in the heart of Greenville, Texas,
-            started by a small family who wanted to give back to their community
-            and the members that have served. Our residents are thriving at the
-            benefits that we provide while keeping an engaged, open environment.
-            Don't hesitate to inquire about any of our services.
+            <i>Heroes & Sober Living</i> resides in the heart of Greenville,
+            Texas, started by a small family who wanted to give back to their
+            community and the members that have served. Our residents are
+            thriving at the benefits that we provide while keeping an engaged,
+            open environment. Don't hesitate to inquire about any of our
+            services.
           </p>
           <div className="sm:w-220 my-12 mb-4 border-b-2 border-white"></div>
 
@@ -115,20 +116,21 @@ export default function About() {
 
       {/* ABOUT OUR RESIDENTS */}
       <section className="sm:my-48 p-0 sm:p-12 flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-20 max-w-8xl mx-auto">
-        <div className="relative w-screen md:w-auto">
+        {/* BACKGROUND IMAGE */}
+        <div className="relative w-full md:w-[700px] flex-shrink-0">
           <Image
             src="/elderly-image.jpg"
             alt="family"
             width={700}
             height={700}
-            style={{ width: "100vw", height: "auto" }} // full width on mobile
+            style={{ width: "100%", height: "auto" }} // scales with container
             sizes="(max-width: 768px) 100vw, 700px"
             className="rounded-none md:rounded-lg object-cover sm:shadow-[30px_30px_0_rgba(0,0,7,0.1)]"
           />
         </div>
 
-        <div className="sm:text-center md:text-left px-6 md:px-0">
-          <h1 className="text-3xl sm:text-5xl text-gray-900 font-serif font-semibold mb-4">
+        <div className="sm:text-center md:text-left px-6 md:px-0 mt-6 md:mt-0">
+          <h1 className="text-3xl max-w-3xl sm:text-5xl text-gray-900 font-serif font-semibold mb-4">
             Become A Part of Our Family, At Heroes & Sober Living
           </h1>
           <p className="text-xl sm:text-2xl text-gray-700 max-w-lg">
@@ -145,6 +147,50 @@ export default function About() {
             We hope that you choose to take the first step with us and
             experience a safe, structured environment where you can thrive.
           </p>
+        </div>
+      </section>
+
+      {/* VISITATION POLICY */}
+      <section className="flex flex-col justify-center items-center">
+        <h1 className="font-serif font-bold text-3xl mt-12 sm:text-5xl mb-8">
+          Visitation Policy
+        </h1>
+        <div className="w-16 border-b-4 border-gray-900"></div>
+        <div className="flex justify-center text-white bg-red-900 mt-8 sm:w-[1200px] w-full sm:h-auto p-2 sm:p-6 sm:mb-16 relative">
+          <div className="flex flex-col items-center justify-between border-4 p-12 sm:p-22 border-white">
+            <div className="relative z-10">
+              <Image
+                src="/white-logo.png"
+                alt="logo"
+                width={220}
+                height={220}
+                className="w-32 sm:w-44 md:w-56 h-auto"
+              />
+            </div>
+
+            <ul className="list-disc list-outside text-white text-lg mt-8 sm:text-2xl space-y-2">
+              <li>
+                Visiting hours are from 10:00 AM to 8:00 PM daily. All visitors
+                must enter through the main entrance only. Each resident may
+                have up to two visitors in their room at a time.
+              </li>
+              <li>All visitors must sign in and sign out at the front desk.</li>
+              <li>
+                Children under 12 must be accompanied by an adult at all times.
+              </li>
+              <li>
+                Please respect quiet hours and refrain from loud conversations
+                in resident areas.
+              </li>
+              <li>
+                Photography or recording of residents requires prior permission.
+              </li>
+              <li>
+                Visitors exhibiting illness or symptoms of contagious conditions
+                may be asked to reschedule.
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </div>
