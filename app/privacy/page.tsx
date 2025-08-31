@@ -188,6 +188,7 @@ export default function Privacy() {
           <li>(469) 456-6032</li>
           <li>(903) 441-7512</li>
           <li>veteranssoberliving@gmail.com</li>
+          <li>heroessoberliving.com</li>
         </ul>
       </div>
     </div>

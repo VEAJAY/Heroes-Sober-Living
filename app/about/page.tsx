@@ -57,7 +57,7 @@ export default function About() {
           carring services and staff.
         </p>
 
-        <div className="flex flex-col justify-center text-white bg-gray-900 sm:w-[1000px] w-[100%] sm:h-[400px] p-12 sm:mt-16">
+        <div className="flex flex-col justify-center text-white bg-gray-900 sm:w-[1000px] w-[100%] sm:h-[400px] p-12 sm:mt-16 sm:shadow-2xl shadow-black/40">
           <p className="text-left sm:text-lg">
             <i>Heroes & Sober Living</i> resides in the heart of Greenville,
             Texas, started by a small family who wanted to give back to their
@@ -156,8 +156,8 @@ export default function About() {
           Visitation Policy
         </h1>
         <div className="w-16 border-b-4 border-gray-900"></div>
-        <div className="flex justify-center text-white bg-red-900 mt-8 sm:w-[1200px] w-full sm:h-auto p-2 sm:p-6 sm:mb-16 relative">
-          <div className="flex flex-col items-center justify-between border-4 p-12 sm:p-22 border-white">
+        <div className="flex justify-center text-white bg-red-900 mt-8 sm:w-[1200px] w-full sm:h-auto p-2 sm:p-6 sm:mb-16 relative sm:shadow-xl shadow-black/30">
+          <div className="flex flex-col items-center justify-between border-2 sm:border-4 p-12 sm:p-22 border-white">
             <div className="relative z-10">
               <Image
                 src="/white-logo.png"

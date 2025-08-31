@@ -4,9 +4,8 @@ import Image from "next/image";
 import Email from "@mui/icons-material/Email";
 import Phone from "@mui/icons-material/Phone";
 import LocationOn from "@mui/icons-material/LocationOn";
-import emailjs from "@emailjs/browser";
 import { useState } from "react";
-import { sendEmail } from "../../lib/resend";
+import Language from "@mui/icons-material/Language";
 
 export default function Contact() {
   const [sending, setSending] = useState(false);
@@ -80,6 +79,11 @@ export default function Contact() {
               <div className="flex items-center space-x-3">
                 <LocationOn className="!w-6 !h-6" />
                 <h3>Greenville, Texas 75401</h3>
+              </div>
+
+              <div className="flex items-center space-x-3">
+                <Language className="text-white !w-6 !h-6" />
+                <h3>www.heroessoberliving.com</h3>
               </div>
             </div>
           </div>

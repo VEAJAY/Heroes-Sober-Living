@@ -105,7 +105,7 @@ export default function Home() {
         {/* GRID WRAPPER */}
         <div className="my-16 mx-4 grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* AMENITIES CARD */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden max-w-sm mx-auto">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden max-w-md mx-auto">
             <Image
               src="/caretaker-image.jpg"
               alt="caretaker"

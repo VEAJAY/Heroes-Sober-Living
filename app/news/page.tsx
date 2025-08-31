@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Message from "../components/message";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 export default function NewsLetter() {
   return (
@@ -43,7 +43,36 @@ export default function NewsLetter() {
           </div>
         </div>
       </section>
-      <Message title="Attention!" />
+
+      {/* NEWS LETTER DOWNLOAD */}
+      <section className="flex flex-col justify-center items-center sm:mt-18">
+        <div className="flex flex-col justify-center text-white bg-gray-900 sm:w-[1000px] w-[100%] sm:h-[400px] p-3 sm:p-12 sm:mt-16 sm:shadow-2xl shadow-black/50">
+          <div className="flex flex-col justify-center items-center text-center border-2 sm:border-4 p-6 sm:p-12 border-white">
+            <h1 className="font-serif font-bold text-2xl">
+              Always Keep in Touch
+            </h1>
+            <div className="w-45 mt-4 mb-4 border-b-2 border-white"></div>
+            <p className="sm:text-2xl">
+              Make sure you check back here periodically for our newsletter to
+              keep up with the latest happenings within our community. We
+              produce a new issue just about every month on resident life, and
+              need-to-know information for managing resident accounts. Be sure
+              to read the privacy policy, and get your copy below!
+            </p>
+          </div>
+        </div>
+
+        <Link
+          href="/news"
+          className="bg-gray-900 hover:bg-gray-700 text-white text-xl sm:my-12 m-6 py-3 px-6 sm:px-32 transition rounded-sm flex items-center"
+        >
+          <span className="block sm:hidden">Coming Soon!</span>
+          <span className="hidden sm:block">
+            No News Yet! Check Back Soon For Our News Letter!
+          </span>
+          <ArrowForwardIcon className="text-white ml-2" />
+        </Link>
+      </section>
     </>
   );
 }
