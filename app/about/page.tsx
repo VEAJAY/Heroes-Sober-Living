@@ -154,8 +154,85 @@ export default function About() {
         </div>
       </section>
 
+      {/* FAQ CARD */}
+      <section className="flex flex-col justify-center items-center mt-12 sm:mt-18">
+        <div className="flex flex-col justify-center text-white bg-gray-900 sm:w-[1000px] w-[100%] sm:h-[400px] p-3 sm:p-12 sm:mt-16 sm:shadow-2xl shadow-black/50">
+          <div className="flex flex-col justify-center items-center text-center border-2 sm:border-4 p-6 sm:p-12 border-white">
+            <h1 className="font-serif font-bold text-2xl">
+              We Know You May Have Questions...
+            </h1>
+            <div className="w-45 mt-4 mb-4 border-b-2 border-white"></div>
+            <p className="sm:text-2xl">
+              We know that moving into a new home can be intimidating, which is
+              why we’ve outlined some of our most frequently asked questions
+              below. Still, reach out to us to gain more clarity on any options
+              you may have questions about.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="flex flex-col justify-center items-center sm:mt-18 w-full">
+        <h1 className="mt-12 text-2xl text-center sm:text-5xl font-serif font-semibold">
+          Frequently Asked Questions
+        </h1>
+        <div className="w-16 mt-3 border-b-4 border-gray-900"></div>
+
+        {/* GRID BOXES */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 w-[90%] mt-12 gap-10">
+          {/* BOX 1 */}
+          <div className="bg-red-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square">
+            <h2 className="font-serif text-xl sm:text-4xl font-bold mb-2">
+              1. What are your living options?
+            </h2>
+            <p className="text-sm sm:text-2xl">
+              We offer multiple living plans designed to fit different needs and
+              budgets, from affordable options to premium suites with enhanced
+              amenities.
+            </p>
+          </div>
+
+          {/* BOX 2 */}
+          <div className="bg-gray-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square">
+            <h2 className="font-serif text-xl sm:text-4xl font-bold mb-2">
+              2. How do I get started?
+            </h2>
+            <p className="text-sm sm:text-2xl">
+              Simply reach out through our contact page or give us a call. Our
+              team will guide you through the process and help you choose the
+              best plan for your needs.
+            </p>
+          </div>
+
+          {/* BOX 3 */}
+          <div className="bg-red-900 sm:bg-gray-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square">
+            <h2 className="font-serif text-xl sm:text-4xl font-bold mb-2">
+              3. Are meals included?
+            </h2>
+            <p className="text-sm sm:text-2xl">
+              Yes! Depending on your chosen plan, meals and community dining
+              options are included to ensure a convenient and enjoyable
+              experience.
+            </p>
+          </div>
+
+          {/* BOX 4 */}
+          <div className="bg-gray-900 sm:bg-red-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square">
+            <h2 className="font-serif text-xl sm:text-4xl font-bold mb-2">
+              4. Can I schedule a tour?
+            </h2>
+            <p className="text-sm sm:text-2xl">
+              Absolutely! We encourage prospective residents and their families
+              to visit and see our community firsthand. Tours can be scheduled
+              at your convenience.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* VISITATION POLICY */}
-      <section className="flex flex-col justify-center items-center">
+      <section className="flex flex-col justify-center items-center sm:mt-24">
         <h1 className="font-serif font-bold text-3xl mt-12 sm:text-5xl mb-8">
           Visitation Policy
         </h1>
