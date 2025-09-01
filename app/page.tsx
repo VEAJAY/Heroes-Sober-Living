@@ -88,7 +88,7 @@ export default function Home() {
         </h3>
 
         {/* GRID WRAPPER */}
-        <div className="my-16 mx-4 grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="my-16 mx-4 grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* AMENITIES CARD */}
           <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden max-w-md mx-auto">
             <Image
@@ -100,7 +100,7 @@ export default function Home() {
             />
             <div className="p-7 flex flex-col gap-4">
               <h3 className="text-xl font-semibold font-serif">
-                Transportation
+                Transportation Assistance
               </h3>
               <p className="text-gray-700 sm:text-2xl">
                 Our transportation assistance is designed to make travel simple
@@ -116,7 +116,7 @@ export default function Home() {
           </div>
 
           {/* AMENITIES CARD */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden max-w-sm mx-auto">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden max-w-md mx-auto">
             <Image
               src="/breakfast-image.jpg"
               alt="breakfast"
@@ -126,22 +126,22 @@ export default function Home() {
             />
             <div className="p-7 flex flex-col gap-4">
               <h3 className="text-xl font-semibold font-serif">
-                Food Services
+                Food Assistance
               </h3>
               <p className="text-gray-700 sm:text-2xl">
                 We assist residents in accessing nutritious meals and snacks
                 that meet their dietary needs. Our food support program helps
                 ensure individuals can enjoy well-balanced, wholesome options,
                 promoting overall health and wellness. By offering guidance and
-                resources for meal planning, we help residents make nourishing
-                choices daily, supporting energy, vitality, and confidence in
-                managing their nutritional needs.
+                resources for grocery assistance, we help residents make
+                nourishing choices daily, supporting energy, vitality, and
+                confidence in managing their nutritional needs.
               </p>
             </div>
           </div>
 
           {/* AMENITIES CARD */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden max-w-sm mx-auto">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden max-w-md mx-auto">
             <Image
               src="/common-home-image.jpg"
               alt="common-home"
@@ -249,7 +249,7 @@ export default function Home() {
         {/* CARDS CONTAINER */}
         <div className="flex flex-wrap justify-center gap-8 sm:gap-12 w-full max-w-5xl">
           {/* CARD 1 */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg sm:shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden flex-1 min-w-[330px]">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg sm:shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden flex-1 min-w-[90vw] sm:min-w-[330px]">
             <Image
               src="/red-family-one.jpg"
               alt="caretaker"
@@ -270,7 +270,7 @@ export default function Home() {
           </div>
 
           {/* CARD 2 */}
-          <div className="flex flex-col bg-[#fbf9f3] rounded-lg sm:shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden flex-1 min-w-[330px]">
+          <div className="flex flex-col bg-[#fbf9f3] rounded-lg sm:shadow-[20px_20px_rgba(0,0,0,0.5)] overflow-hidden flex-1 min-w-[90vw] sm:min-w-[330px]">
             <Image
               src="/red-family-two.jpg"
               alt="caretaker"
@@ -297,26 +297,38 @@ export default function Home() {
       </section>
 
       {/* JOIN US */}
-      <section className="sm:my-72 p-12 flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-20 max-w-7xl mx-auto">
-        <div className="relative flex-shrink-0">
+      <section className="mb-12 sm:my-48 p-0 sm:p-12 flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-20 max-w-8xl mx-auto">
+        {/* BACKGROUND IMAGE */}
+        <div className="relative w-full md:w-[700px] flex-shrink-0">
           <Image
             src="/old-family.jpg"
             alt="family"
-            width={600}
-            height={600}
-            className="rounded-lg object-cover sm:shadow-[30px_30px_0_rgba(0,0,7,0.1)]"
+            width={700}
+            height={700}
+            style={{ width: "100%", height: "auto" }}
+            sizes="(max-width: 768px) 100vw, 700px"
+            className="rounded-none md:rounded-lg object-cover sm:shadow-[30px_30px_0_rgba(0,0,7,0.1)]"
           />
         </div>
 
-        <div className="sm:text-center md:text-left">
-          <h1 className="text-3xl sm:text-5xl text-gray-900 font-serif font-semibold mb-4">
+        <div className="sm:text-center md:text-left px-6 md:px-0 mt-6 md:mt-0">
+          <h1 className="text-3xl max-w-3xl sm:text-5xl text-gray-900 font-serif font-semibold mb-4">
             Become A Part of Our Family, At Heroes & Sober Living
           </h1>
           <p className="text-xl sm:text-2xl text-gray-700 max-w-lg">
-            Join our warm, family-driven community in Fort Worth, Texas. We
-            provide a safe, caring environment for residents who are recovering
-            and those who have served our country, helping everyone thrive in a
-            supportive and welcoming home.
+            Our residents come from diverse backgrounds, including veterans,
+            individuals re-entering society, those experiencing homelessness,
+            people living with disabilities, and individuals navigating mental
+            health challenges. Each person brings their own story and
+            resilience, creating a unique and supportive community.
+          </p>
+
+          <p className="text-xl sm:text-2xl sm:mt-6 text-gray-700 max-w-lg">
+            We serve an inclusive community built on respect, accountability,
+            and growth. Through tailored support programs, we help residents
+            access resources, develop life skills, and connect with services
+            designed for mental health, disabilities, veterans, and re-entry
+            assistance.
           </p>
         </div>
       </section>

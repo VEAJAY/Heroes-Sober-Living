@@ -266,54 +266,84 @@ export default function LivingOptions() {
         </button>
 
         <div
-          className={`mt-4 bg-gray-900 text-white p-4 mb-12 space-y-8 text-left w-[90%] overflow-hidden transition-all duration-500 ease-in-out ${
+          className={`mt-4 bg-gray-900 text-white p-4 mb-12 space-y-8 text-left sm:w-[90%] overflow-hidden transition-all duration-500 ease-in-out ${
             isOpen ? "sm:max-h-screen opacity-100" : "max-h-0 opacity-0"
           }`}
         >
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 p-8 text-xl">
-            <li className="list-disc ml-5">
-              Safe, clean, and fully maintained housing
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 p-8 text-xl list-none border-2 border-white">
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>Safe, clean, and fully maintained housing</span>
             </li>
-            <li className="list-disc ml-5">
-              Affordable rent designed to fit fixed incomes (SSI, SSDI, VA,
-              etc.)
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>
+                Affordable rent designed to fit fixed incomes (SSI, SSDI, VA,
+                etc.)
+              </span>
             </li>
-            <li className="list-disc ml-5">
-              Utilities included (water, electricity, internet, etc.)
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>
+                Utilities included (water, electricity, free internet, etc.)
+              </span>
             </li>
-            <li className="list-disc ml-5">
-              Flexible rental terms (month-to-month or longer)
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>Flexible rental terms (month-to-month or longer)</span>
             </li>
-            <li className="list-disc ml-5">
-              Respect for privacy and personal freedom
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>Respect for privacy and personal freedom</span>
             </li>
-            <li className="list-disc ml-5">
-              Stable and secure environment with house rules for peace
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>
+                Stable and secure environment with house rules for peace
+              </span>
             </li>
-            <li className="list-disc ml-5">
-              Quick response to repairs and property maintenance
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>Quick response to repairs and property maintenance</span>
             </li>
-            <li className="list-disc ml-5">
-              Community of peers with shared experiences - opportunities for
-              friendship and social support
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>
+                Community of peers with shared experiences - opportunities for
+                friendship and social support
+              </span>
             </li>
-            <li className="list-disc ml-5">
-              Access to local resources, VA, and disability services
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>
+                Access to local resources, VA, and disability services
+              </span>
             </li>
-            <li className="list-disc ml-5">
-              Connections to jobs, counseling, and recovery programs
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>
+                Connections to jobs, counseling, and recovery programs
+              </span>
             </li>
-            <li className="list-disc ml-5">
-              Food and transportation assistance for appointments and needs
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>
+                Food and transportation assistance for appointments and needs
+              </span>
             </li>
-            <li className="list-disc ml-5">
-              24/7 video recording for safety and security
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>24/7 video recording for safety and security</span>
             </li>
-            <li className="list-disc ml-5">
-              Third-dietary support for special nutrition needs
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>Third-dietary support for special nutrition needs</span>
             </li>
-            <li className="list-disc ml-5">
-              Peace of mind for families knowing loved ones are safe
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>
+                Peace of mind for families knowing loved ones are safe
+              </span>
             </li>
           </ul>
         </div>

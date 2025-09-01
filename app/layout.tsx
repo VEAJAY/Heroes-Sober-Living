@@ -17,6 +17,10 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="google-site-verification"
+          content="A0aufht3b5ggjrH5rxoOlHqWy--sE2nsMxyepAE407g"
+        />
       </head>
       <body>
         <Navbar />
