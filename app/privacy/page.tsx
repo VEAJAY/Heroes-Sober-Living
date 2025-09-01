@@ -6,11 +6,11 @@ export default function Privacy() {
           Privacy Policy for <i>Heroes & Sober Living</i>
         </h1>
         <p className="mt-8 text-xl text-left">
-          This privacy policy (the “Privacy Policy” or “Policy”) of Sagora
-          Senior Living Inc. (“Company,” “we,” “us,” or “our”) describes our
-          privacy practices regarding personal information we collect, including
-          from persons (“you” or “your”) who access our property’s website or
-          our related mobile applications that may be available for download
+          This privacy policy (the “Privacy Policy” or “Policy”) of Heroes &
+          Sober Living (“Company,” “we,” “us,” or “our”) describes our privacy
+          practices regarding personal information we collect, including from
+          persons (“you” or “your”) who access our property’s website or our
+          related mobile applications that may be available for download
           (collectively, the “Site”).
         </p>
         <p className="font-bold text-xl mt-8">Effect Date: August 30th, 2025</p>
