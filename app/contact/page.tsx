@@ -68,12 +68,16 @@ export default function Contact() {
 
               <div className="flex items-center space-x-3">
                 <Phone className="!w-6 !h-6" />
-                <p className="font-sans">Antwoine Burley (469) 456-6032</p>
+                <a href="tel:+14694566032" className="font-sans">
+                  Antwoine Burley (469) 456-6032
+                </a>
               </div>
 
               <div className="flex items-center space-x-3">
                 <Phone className="!w-6 !h-6" />
-                <p className="font-sans">LaWayne Rogers (903) 441-7512</p>
+                <a href="tel:+19034417512" className="font-sans">
+                  LaWayne Rogers (903) 441-7512
+                </a>
               </div>
 
               <div className="flex items-center space-x-3">
