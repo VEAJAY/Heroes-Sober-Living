@@ -153,18 +153,6 @@ export default function LivingOptions() {
             ]}
           />
           <PlanCard
-            title="Sober Living Option"
-            price="$1000"
-            buttonText="Get Started"
-            link="/residents"
-            benefits={[
-              "Affordable housing & private rooms for veterans",
-              "Upgraded beds for private rooms",
-              "Assistance with benefits and paperwork",
-              "Added desks and other room utilities",
-            ]}
-          />
-          <PlanCard
             title="Honorary Living Option"
             price="$1600"
             buttonText="Get Started"
@@ -177,13 +165,25 @@ export default function LivingOptions() {
           />
           <PlanCard
             title="Premium Living Option"
-            price="$2500"
+            price="$1850"
             buttonText="Get Started"
             link="/residents"
             benefits={[
               "Spacious rooms with upgraded amenities (first available)",
               "Private bathrooms included",
               "Priority scheduling for events and transportation needs",
+            ]}
+          />
+          <PlanCard
+            title="Sober Living Option"
+            price="$2500"
+            buttonText="Get Started"
+            link="/residents"
+            benefits={[
+              "Affordable housing & private rooms for veterans",
+              "Upgraded beds for private rooms",
+              "Assistance with benefits and paperwork",
+              "Added desks and other room utilities",
             ]}
           />
         </div>

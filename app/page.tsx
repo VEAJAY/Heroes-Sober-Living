@@ -129,14 +129,13 @@ export default function Home() {
                 Food Services
               </h3>
               <p className="text-gray-700 sm:text-2xl">
-                We offer a variety of nutritious meals and snacks tailored to
-                meet the dietary needs of our residents. Our food assistance
-                program guarantees that every individual has access to
-                well-balanced, wholesome meals, supporting overall health and
-                wellness. By taking the stress out of meal planning, we help
-                residents enjoy flavorful, nourishing food daily, promoting
-                energy, vitality, and a sense of comfort in knowing that their
-                nutritional needs are consistently met.
+                We assist residents in accessing nutritious meals and snacks
+                that meet their dietary needs. Our food support program helps
+                ensure individuals can enjoy well-balanced, wholesome options,
+                promoting overall health and wellness. By offering guidance and
+                resources for meal planning, we help residents make nourishing
+                choices daily, supporting energy, vitality, and confidence in
+                managing their nutritional needs.
               </p>
             </div>
           </div>
