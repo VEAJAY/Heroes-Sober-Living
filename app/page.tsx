@@ -313,9 +313,9 @@ export default function Home() {
 
         <div className="sm:text-center md:text-left px-6 md:px-0 mt-6 md:mt-0">
           <h1 className="text-3xl max-w-3xl sm:text-5xl text-gray-900 font-serif font-semibold mb-4">
-            Become A Part of Our Family, At Heroes & Sober Living
+            We'll Help You Through Every Step of the Way
           </h1>
-          <p className="text-xl sm:text-2xl text-gray-700 max-w-lg">
+          <p className="text-xl sm:text-2xl text-gray-700 max-w-2xl">
             Our residents come from diverse backgrounds, including veterans,
             individuals re-entering society, those experiencing homelessness,
             people living with disabilities, and individuals navigating mental
@@ -323,7 +323,7 @@ export default function Home() {
             resilience, creating a unique and supportive community.
           </p>
 
-          <p className="text-xl sm:text-2xl sm:mt-6 text-gray-700 max-w-lg">
+          <p className="text-xl sm:text-2xl sm:mt-6 text-gray-700 max-w-2xl">
             We serve an inclusive community built on respect, accountability,
             and growth. Through tailored support programs, we help residents
             access resources, develop life skills, and connect with services

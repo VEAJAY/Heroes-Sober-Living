@@ -88,7 +88,7 @@ export default function Contact() {
 
               <div className="flex items-center space-x-3">
                 <LocationOn className="!w-6 !h-6" />
-                <h3>Greenville, Texas 75401</h3>
+                <h3>Fort Worth, Texas 76109</h3>
               </div>
 
               <div className="flex items-center space-x-3">

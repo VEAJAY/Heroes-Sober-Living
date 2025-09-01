@@ -133,7 +133,7 @@ export default function About() {
         </div>
 
         <div className="sm:text-center md:text-left px-6 md:px-0 mt-6 md:mt-0">
-          <h1 className="text-3xl max-w-3xl sm:text-5xl text-gray-900 font-serif font-semibold mb-4">
+          <h1 className="text-3xl max-w-xl sm:text-4xl text-gray-900 font-serif font-semibold mb-4">
             Become A Part of Our Family, At Heroes & Sober Living
           </h1>
           <p className="text-xl sm:text-2xl text-gray-700 max-w-lg">
