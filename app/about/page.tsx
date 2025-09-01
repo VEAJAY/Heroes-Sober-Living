@@ -5,31 +5,31 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 export default function About() {
   return (
-    <div className="w-full">
-      <section className="relative w-full h-[50vh]">
+    <div className='w-full'>
+      <section className='relative w-full h-[50vh]'>
         {/* BACKGROUND IMAGE */}
-        <div className="absolute inset-0">
+        <div className='absolute inset-0'>
           <Image
-            src="/family-image.jpg"
-            alt="hero"
+            src='/family-image.jpg'
+            alt='hero'
             fill
             style={{ objectFit: "cover" }}
-            className="brightness-20 sm:brightness-30"
+            className='brightness-20 sm:brightness-30'
           />
           {/* <div className="absolute inset-0 bg-gradient-to-r from-black/100 to-transparent"></div> */}
         </div>
 
         {/* HERO SECTION */}
-        <div className="relative flex justify-center items-center h-full px-6">
-          <div className="p-8 mt-20 md:p-12 lg:border-5 lg:border-red-900 h-200 w-360 flex flex-col items-center text-center justify-center">
+        <div className='relative flex justify-center items-center h-full px-6'>
+          <div className='p-8 mt-20 md:p-12 lg:border-5 lg:border-red-900 lg:h-[35rem] h-200 w-360 flex flex-col items-center text-center justify-center'>
             {/* MAIN HEADING */}
-            <h1 className="text-white text-lg sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide sm:mb-10 max-w-2xl text-left">
+            <h1 className='text-white text-lg sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide sm:mb-10 max-w-2xl text-left'>
               Our Mission
             </h1>
-            <div className="sm:hidden w-28 my-2 border-b-2 border-white"></div>
+            <div className='sm:hidden w-28 my-2 border-b-2 border-white'></div>
 
             {/* SUB-HEADING */}
-            <h2 className="text-white text-sm sm:text-lg md:text-xl lg:text-3xl font-serif mb-6 max-w-4xl text-center">
+            <h2 className='text-white text-sm sm:text-lg md:text-xl lg:text-3xl font-serif mb-6 max-w-4xl text-center'>
               Our mission is to provide a clean and safe living environment for
               veterans and sober living. We are a loving family with a goal to
               help families find a warm and welcoming home for their loved ones.
@@ -37,8 +37,8 @@ export default function About() {
 
             {/* BUTTON */}
             <Link
-              href="/contact"
-              className="bg-red-700 hover:bg-red-800 text-white px-4 py-2 sm:px-8 sm:py-3 rounded-md text-sm sm:text-lg font-semibold transition w-max"
+              href='/contact'
+              className='bg-red-700 hover:bg-red-800 text-white px-4 py-2 sm:px-8 sm:py-3 rounded-md text-sm sm:text-lg font-semibold transition w-max'
             >
               Contact Us Today
             </Link>
@@ -47,20 +47,20 @@ export default function About() {
       </section>
 
       {/* BENEFITS */}
-      <section className="flex flex-col justify-center items-center sm:mt-32">
-        <h1 className="mt-12 text-2xl text-center sm:text-5xl font-serif font-semibold">
+      <section className='flex flex-col justify-center items-center sm:mt-32'>
+        <h1 className='mt-12 text-2xl text-center sm:text-5xl font-serif font-semibold'>
           Start Health and Wellness Today
         </h1>
-        <div className="w-16 mt-3 border-b-4 border-gray-900"></div>
-        <p className="flex sm:text-2xl p-6 max-w-2xl text-center">
+        <div className='w-16 mt-3 border-b-4 border-gray-900'></div>
+        <p className='flex sm:text-2xl p-6 max-w-2xl text-center'>
           We are here to help keep your journey of health and wellness with our
           carring services and staff.
         </p>
 
-        <div className="flex flex-col text-white bg-gray-900 sm:w-[1000px] w-full sm:h-auto p-3 sm:p-8 sm:mt-16 sm:shadow-2xl shadow-black/50">
+        <div className='flex flex-col text-white bg-gray-900 sm:w-[1000px] w-full sm:h-auto p-3 sm:p-8 sm:mt-16 sm:shadow-2xl shadow-black/50'>
           {/* Inner Border */}
-          <div className="border-2 sm:border-4 border-white p-6 sm:p-8 flex flex-col justify-start w-full">
-            <p className="text-center sm:text-lg">
+          <div className='border-2 sm:border-4 border-white p-6 sm:p-8 flex flex-col justify-start w-full'>
+            <p className='text-center sm:text-lg'>
               <i>Heroes & Sober Living</i> resides in the heart of Greenville,
               Texas, started by a small family who wanted to give back to their
               community and the members that have served. Our residents are
@@ -69,85 +69,85 @@ export default function About() {
               services.
             </p>
 
-            <div className="sm:w-220 my-2 border-b-2 border-white"></div>
+            <div className='sm:w-220 my-2 border-b-2 border-white'></div>
 
-            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-lg mt-4">
-              <li className="flex items-center p-4">
-                <ArrowForwardIcon className="text-white mr-2" />
+            <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-lg mt-4'>
+              <li className='flex items-center p-4'>
+                <ArrowForwardIcon className='text-white mr-2' />
                 Transportation
               </li>
-              <li className="flex items-center p-4">
-                <ArrowForwardIcon className="text-white mr-2" />
+              <li className='flex items-center p-4'>
+                <ArrowForwardIcon className='text-white mr-2' />
                 Bedding
               </li>
-              <li className="flex items-center p-4">
-                <ArrowForwardIcon className="text-white mr-2" />
+              <li className='flex items-center p-4'>
+                <ArrowForwardIcon className='text-white mr-2' />
                 Food Meals
               </li>
-              <li className="flex items-center p-4">
-                <ArrowForwardIcon className="text-white mr-2" />
+              <li className='flex items-center p-4'>
+                <ArrowForwardIcon className='text-white mr-2' />
                 Merchandise
               </li>
-              <li className="flex items-center p-4">
-                <ArrowForwardIcon className="text-white mr-2" />
+              <li className='flex items-center p-4'>
+                <ArrowForwardIcon className='text-white mr-2' />
                 Donations
               </li>
-              <li className="flex items-center p-4">
-                <ArrowForwardIcon className="text-white mr-2" />
+              <li className='flex items-center p-4'>
+                <ArrowForwardIcon className='text-white mr-2' />
                 Visitation
               </li>
             </ul>
           </div>
         </div>
 
-        <p className="text-center sm:mt-18 mt-4 max-w-2xl p-4 sm:text-2xl">
+        <p className='text-center sm:mt-18 mt-4 max-w-2xl p-4 sm:text-2xl'>
           We are located just 40 minutes east of central dallas, Greenville,
           Texas in a nice and inviting town center. We can't wait for you to
           have a new home
         </p>
 
         <Link
-          href="/living"
-          className="bg-gray-900 hover:bg-gray-700 text-white text-xl sm:mt-12 m-6 py-3 px-6 sm:px-32 transition rounded-sm flex items-center"
+          href='/living'
+          className='bg-gray-900 hover:bg-gray-700 text-white text-xl sm:mt-12 m-6 py-3 px-6 sm:px-32 transition rounded-sm flex items-center'
         >
-          <span className="block sm:hidden">Learn More</span>
-          <span className="hidden sm:block">
+          <span className='block sm:hidden'>Learn More</span>
+          <span className='hidden sm:block'>
             Learn More About Our Living Options to Begin
           </span>
-          <ArrowForwardIcon className="text-white ml-2" />
+          <ArrowForwardIcon className='text-white ml-2' />
         </Link>
       </section>
 
       {/* ABOUT OUR RESIDENTS */}
-      <section className="sm:my-48 p-0 sm:p-12 flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-20 max-w-8xl mx-auto">
+      <section className='sm:my-48 p-0 sm:p-12 flex flex-col md:flex-row items-center justify-center gap-10 sm:gap-20 max-w-8xl mx-auto'>
         {/* BACKGROUND IMAGE */}
-        <div className="relative w-full md:w-[700px] flex-shrink-0">
+        <div className='relative w-full md:w-[700px] flex-shrink-0'>
           <Image
-            src="/elderly-image.jpg"
-            alt="family"
+            src='/elderly-image.jpg'
+            alt='family'
             width={700}
             height={700}
             style={{ width: "100%", height: "auto" }}
-            sizes="(max-width: 768px) 100vw, 700px"
-            className="rounded-none md:rounded-lg object-cover sm:shadow-[30px_30px_0_rgba(0,0,7,0.1)]"
+            sizes='(max-width: 768px) 100vw, 700px'
+            className='rounded-none md:rounded-lg object-cover sm:shadow-[30px_30px_0_rgba(0,0,7,0.1)]'
           />
         </div>
 
-        <div className="sm:text-center md:text-left px-6 md:px-0 mt-6 md:mt-0">
-          <h1 className="text-3xl max-w-3xl sm:text-5xl text-gray-900 font-serif font-semibold mb-4">
+        <div className='sm:text-center md:text-left px-6 md:px-0 mt-6 md:mt-0'>
+          <h1 className='text-3xl max-w-3xl sm:text-5xl text-gray-900 font-serif font-semibold mb-4'>
             Become A Part of Our Family, At Heroes & Sober Living
           </h1>
-          <p className="text-xl sm:text-2xl text-gray-700 max-w-lg">
+          <p className='text-xl sm:text-2xl text-gray-700 max-w-lg'>
             Our residents come from a myriad of backgrounds such as veterans,
             first responders, and individuals seeking a new path in life. Each
             person brings their own story and strength, creating a unique and
             supportive atmosphere.
           </p>
-          <p className="text-xl sm:text-2xl sm:mt-6 text-gray-700 max-w-lg">
+          <p className='text-xl sm:text-2xl sm:mt-6 text-gray-700 max-w-lg'>
             We serve an inclusive community built on respect, accountability,
             and growth, ensuring that everyone feels valued and understood.
           </p>
-          <p className="text-xl sm:text-2xl sm:mt-6 text-gray-700 max-w-lg">
+          <p className='text-xl sm:text-2xl sm:mt-6 text-gray-700 max-w-lg'>
             We hope that you choose to take the first step with us and
             experience a safe, structured environment where you can thrive.
           </p>
@@ -155,14 +155,14 @@ export default function About() {
       </section>
 
       {/* FAQ CARD */}
-      <section className="flex flex-col justify-center items-center mt-12 sm:mt-18">
-        <div className="flex flex-col justify-center text-white bg-gray-900 sm:w-[1000px] w-[100%] sm:h-[400px] p-3 sm:p-12 sm:mt-16 sm:shadow-2xl shadow-black/50">
-          <div className="flex flex-col justify-center items-center text-center border-2 sm:border-4 p-6 sm:p-12 border-white">
-            <h1 className="font-serif font-bold text-2xl">
+      <section className='flex flex-col justify-center items-center mt-12 sm:mt-18'>
+        <div className='flex flex-col justify-center text-white bg-gray-900 sm:w-[1000px] w-[100%] sm:h-[400px] p-3 sm:p-12 sm:mt-16 sm:shadow-2xl shadow-black/50'>
+          <div className='flex flex-col justify-center items-center text-center border-2 sm:border-4 p-6 sm:p-12 border-white'>
+            <h1 className='font-serif font-bold text-2xl'>
               We Know You May Have Questions...
             </h1>
-            <div className="w-45 mt-4 mb-4 border-b-2 border-white"></div>
-            <p className="sm:text-2xl">
+            <div className='w-45 mt-4 mb-4 border-b-2 border-white'></div>
+            <p className='sm:text-2xl'>
               We know that moving into a new home can be intimidating, which is
               why we’ve outlined some of our most frequently asked questions
               below. Still, reach out to us to gain more clarity on any options
@@ -173,20 +173,20 @@ export default function About() {
       </section>
 
       {/* FAQ */}
-      <section className="flex flex-col justify-center items-center sm:mt-18 w-full">
-        <h1 className="mt-12 text-2xl text-center sm:text-5xl font-serif font-semibold">
+      <section className='flex flex-col justify-center items-center sm:mt-18 w-full'>
+        <h1 className='mt-12 text-2xl text-center sm:text-5xl font-serif font-semibold'>
           Frequently Asked Questions
         </h1>
-        <div className="w-16 mt-3 border-b-4 border-gray-900"></div>
+        <div className='w-16 mt-3 border-b-4 border-gray-900'></div>
 
         {/* GRID BOXES */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 w-[90%] mt-12 gap-10">
+        <div className='grid grid-cols-1 sm:grid-cols-2 w-[60%] mt-12 gap-10'>
           {/* BOX 1 */}
-          <div className="bg-red-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square">
-            <h2 className="font-serif text-xl sm:text-4xl font-bold mb-2">
+          <div className='bg-red-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square'>
+            <h2 className='font-serif text-xl sm:text-4xl font-bold mb-2'>
               1. What are your living options?
             </h2>
-            <p className="text-sm sm:text-2xl">
+            <p className='text-sm sm:text-2xl'>
               We offer multiple living plans designed to fit different needs and
               budgets, from affordable options to premium suites with enhanced
               amenities.
@@ -194,11 +194,11 @@ export default function About() {
           </div>
 
           {/* BOX 2 */}
-          <div className="bg-gray-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square">
-            <h2 className="font-serif text-xl sm:text-4xl font-bold mb-2">
+          <div className='bg-gray-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square'>
+            <h2 className='font-serif text-xl sm:text-4xl font-bold mb-2'>
               2. How do I get started?
             </h2>
-            <p className="text-sm sm:text-2xl">
+            <p className='text-sm sm:text-2xl'>
               Simply reach out through our contact page or give us a call. Our
               team will guide you through the process and help you choose the
               best plan for your needs.
@@ -206,11 +206,11 @@ export default function About() {
           </div>
 
           {/* BOX 3 */}
-          <div className="bg-red-900 sm:bg-gray-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square">
-            <h2 className="font-serif text-xl sm:text-4xl font-bold mb-2">
+          <div className='bg-red-900 sm:bg-gray-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square'>
+            <h2 className='font-serif text-xl sm:text-4xl font-bold mb-2'>
               3. Are meals included?
             </h2>
-            <p className="text-sm sm:text-2xl">
+            <p className='text-sm sm:text-2xl'>
               Yes! Depending on your chosen plan, meals and community dining
               options are included to ensure a convenient and enjoyable
               experience.
@@ -218,11 +218,11 @@ export default function About() {
           </div>
 
           {/* BOX 4 */}
-          <div className="bg-gray-900 sm:bg-red-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square">
-            <h2 className="font-serif text-xl sm:text-4xl font-bold mb-2">
+          <div className='bg-gray-900 sm:bg-red-900 flex flex-col justify-center items-center p-8 text-white text-center aspect-square'>
+            <h2 className='font-serif text-xl sm:text-4xl font-bold mb-2'>
               4. Can I schedule a tour?
             </h2>
-            <p className="text-sm sm:text-2xl">
+            <p className='text-sm sm:text-2xl'>
               Absolutely! We encourage prospective residents and their families
               to visit and see our community firsthand. Tours can be scheduled
               at your convenience.
@@ -232,24 +232,24 @@ export default function About() {
       </section>
 
       {/* VISITATION POLICY */}
-      <section className="flex flex-col justify-center items-center sm:mt-24">
-        <h1 className="font-serif font-bold text-3xl mt-12 sm:text-5xl mb-8">
+      <section className='flex flex-col justify-center items-center sm:mt-24'>
+        <h1 className='font-serif font-bold text-3xl mt-12 sm:text-5xl mb-8'>
           Visitation Policy
         </h1>
-        <div className="w-16 border-b-4 border-gray-900"></div>
-        <div className="flex justify-center text-white bg-red-900 mt-8 sm:w-[1200px] w-full sm:h-auto p-2 sm:p-6 sm:mb-16 relative sm:shadow-xl shadow-black/30">
-          <div className="flex flex-col items-center justify-between border-2 sm:border-4 p-12 sm:p-22 border-white">
-            <div className="relative z-10">
+        <div className='w-16 border-b-4 border-gray-900'></div>
+        <div className='flex justify-center text-white bg-red-900 mt-8 sm:w-[1200px] w-full sm:h-auto p-2 sm:p-6 sm:mb-16 relative sm:shadow-xl shadow-black/30'>
+          <div className='flex flex-col items-center justify-between border-2 sm:border-4 p-12 sm:p-22 border-white'>
+            <div className='relative z-10'>
               <Image
-                src="/white-logo.png"
-                alt="logo"
+                src='/white-logo.png'
+                alt='logo'
                 width={220}
                 height={220}
-                className="w-32 sm:w-44 md:w-56 h-auto"
+                className='w-32 sm:w-44 md:w-56 h-auto'
               />
             </div>
 
-            <ul className="list-disc list-outside text-white text-lg mt-8 sm:text-2xl space-y-2">
+            <ul className='list-disc list-outside text-white text-lg mt-8 sm:text-2xl space-y-2'>
               <li>
                 Visiting hours are from 10:00 AM to 8:00 PM daily. All visitors
                 must enter through the main entrance only. Each resident may
