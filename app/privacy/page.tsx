@@ -181,7 +181,7 @@ export default function Privacy() {
         </h1>
         <ul className="text-xl mt-8">
           <li>
-            <b>Privacy Officer</b>
+            <b className="font-serif">Privacy Officer</b>
           </li>
           <li>Heroes & Sober Living</li>
           <li>Greenville, Texas 75401</li>

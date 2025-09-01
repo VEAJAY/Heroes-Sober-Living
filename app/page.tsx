@@ -181,10 +181,10 @@ export default function Home() {
 
       {/* HOW TO */}
       <section className="mt-4 sm:mt-24 flex flex-col text-center items-center justify-center border-5 border-red-900 mx-4 sm:mx-12 pb-12">
-        <h1 className="mt-18 text-gray-900 text-2xl sm:text-5xl font-serif font-semibold relative inline-block">
+        <h1 className="mt-12 p-6 text-gray-900 text-2xl sm:text-5xl font-serif font-semibold relative inline-block">
           Want To Know How To Start With Us?
         </h1>
-        <div className="w-24 mt-8 border-b-4 border-gray-900"></div>
+        <div className="w-24 mt-2 border-b-4 border-gray-900"></div>
         <h3 className="mt-8 px-4 sm:text-2xl max-w-2xl">
           It is easier than ever to join a community that is right for you, with
           all the support needed through your journey.
