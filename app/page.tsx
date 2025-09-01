@@ -88,7 +88,7 @@ export default function Home() {
         </h3>
 
         {/* GRID WRAPPER */}
-        <div className="my-16 mx-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="my-16 mx-4 grid grid-cols-1 md:grid-cols-3 gap-2">
           {/* AMENITIES CARD */}
           <div className="flex flex-col bg-[#fbf9f3] rounded-lg shadow-lg overflow-hidden max-w-md mx-auto">
             <Image
@@ -103,7 +103,7 @@ export default function Home() {
                 Transportation
               </h3>
               <p className="text-gray-700 sm:text-2xl">
-                Our transportation services are designed to make travel simple
+                Our transportation assistance is designed to make travel simple
                 and convenient for all residents. Whether attending medical
                 appointments, completing errands, or enjoying community events,
                 our dependable and safe transportation options ensure that
@@ -313,7 +313,7 @@ export default function Home() {
             Become A Part of Our Family, At Heroes & Sober Living
           </h1>
           <p className="text-xl sm:text-2xl text-gray-700 max-w-lg">
-            Join our warm, family-driven community in Greenville, Texas. We
+            Join our warm, family-driven community in Fort Worth, Texas. We
             provide a safe, caring environment for residents who are recovering
             and those who have served our country, helping everyone thrive in a
             supportive and welcoming home.
