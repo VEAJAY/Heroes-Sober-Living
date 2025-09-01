@@ -1,9 +1,13 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import PlanCard from "../components/plancard";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import { useState } from "react";
 
 export default function LivingOptions() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <section className="relative w-full h-[50vh]">
@@ -250,6 +254,69 @@ export default function LivingOptions() {
             </li>
           ))}
         </ul>
+      </section>
+
+      {/* AND MORE */}
+      <section className="flex flex-col justify-center items-center">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="bg-gray-900 hover:bg-gray-700 text-white px-10 py-4 sm:px-8 sm:py-3 rounded-md text-lg sm:text-lg font-semibold transition w-max cursor-pointer"
+        >
+          And More {isOpen ? "▲" : "▼"}
+        </button>
+
+        <div
+          className={`mt-4 bg-gray-900 text-white p-4 mb-12 space-y-8 text-left w-[90%] overflow-hidden transition-all duration-500 ease-in-out ${
+            isOpen ? "sm:max-h-screen opacity-100" : "max-h-0 opacity-0"
+          }`}
+        >
+          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 p-8 text-xl">
+            <li className="list-disc ml-5">
+              Safe, clean, and fully maintained housing
+            </li>
+            <li className="list-disc ml-5">
+              Affordable rent designed to fit fixed incomes (SSI, SSDI, VA,
+              etc.)
+            </li>
+            <li className="list-disc ml-5">
+              Utilities included (water, electricity, internet, etc.)
+            </li>
+            <li className="list-disc ml-5">
+              Flexible rental terms (month-to-month or longer)
+            </li>
+            <li className="list-disc ml-5">
+              Respect for privacy and personal freedom
+            </li>
+            <li className="list-disc ml-5">
+              Stable and secure environment with house rules for peace
+            </li>
+            <li className="list-disc ml-5">
+              Quick response to repairs and property maintenance
+            </li>
+            <li className="list-disc ml-5">
+              Community of peers with shared experiences - opportunities for
+              friendship and social support
+            </li>
+            <li className="list-disc ml-5">
+              Access to local resources, VA, and disability services
+            </li>
+            <li className="list-disc ml-5">
+              Connections to jobs, counseling, and recovery programs
+            </li>
+            <li className="list-disc ml-5">
+              Food and transportation assistance for appointments and needs
+            </li>
+            <li className="list-disc ml-5">
+              24/7 video recording for safety and security
+            </li>
+            <li className="list-disc ml-5">
+              Third-dietary support for special nutrition needs
+            </li>
+            <li className="list-disc ml-5">
+              Peace of mind for families knowing loved ones are safe
+            </li>
+          </ul>
+        </div>
       </section>
 
       {/* CONTACT US */}

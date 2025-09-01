@@ -67,7 +67,7 @@ export default function Footer() {
 
           <div className="flex items-center space-x-3">
             <Phone className="text-white !w-6 !h-6" />
-            <a href="tel:+9034417512" className="font-sans hover:underline">
+            <a href="tel:+19034417512" className="font-sans hover:underline">
               LaWayne Rogers (903) 441-7512
             </a>
           </div>

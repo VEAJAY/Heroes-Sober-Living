@@ -61,7 +61,7 @@ export default function About() {
           {/* Inner Border */}
           <div className="border-2 sm:border-4 border-white p-6 sm:p-8 flex flex-col justify-start w-full">
             <p className="text-center sm:text-lg">
-              <i>Heroes & Sober Living</i> resides in the heart of Greenville,
+              <i>Heroes & Sober Living</i> resides in the heart of Fort Worth,
               Texas, started by a small family who wanted to give back to their
               community and the members that have served. Our residents are
               thriving at the benefits that we provide while keeping an engaged,
@@ -74,36 +74,35 @@ export default function About() {
             <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-lg mt-4">
               <li className="flex items-center p-4">
                 <ArrowForwardIcon className="text-white mr-2" />
-                Transportation
+                Transportation Assistance
               </li>
               <li className="flex items-center p-4">
                 <ArrowForwardIcon className="text-white mr-2" />
-                Bedding
+                Quick Maintenance
               </li>
               <li className="flex items-center p-4">
                 <ArrowForwardIcon className="text-white mr-2" />
-                Food Meals
+                Food Assistance
               </li>
               <li className="flex items-center p-4">
                 <ArrowForwardIcon className="text-white mr-2" />
-                Merchandise
+                Job Connections & Counseling
               </li>
               <li className="flex items-center p-4">
                 <ArrowForwardIcon className="text-white mr-2" />
-                Donations
+                Flexible Rental Terms
               </li>
               <li className="flex items-center p-4">
                 <ArrowForwardIcon className="text-white mr-2" />
-                Visitation
+                24/7 Security Recording
               </li>
             </ul>
           </div>
         </div>
 
         <p className="text-center sm:mt-18 mt-4 max-w-2xl p-4 sm:text-2xl">
-          We are located just 40 minutes east of central dallas, Greenville,
-          Texas in a nice and inviting town center. We can't wait for you to
-          have a new home
+          We are located in the heart of Fort Worth, Texas in a nice and
+          inviting town center. We can't wait for you to have a new home.
         </p>
 
         <Link
