@@ -23,7 +23,7 @@ export default function Home() {
 
         {/* HERO CONTENT */}
         <div className='relative flex justify-center items-center h-full px-6'>
-          <div className='p-8 mt-20 md:p-12 lg:border-5 lg:border-red-900 lg:h-[35rem] h-200 w-360 flex flex-col justify-center items-center md:items-start'>
+          <div className='p-8 mt-20 md:p-12 lg:border-5 lg:border-red-900 lg:h-[37rem] h-200 w-360 flex flex-col justify-center items-center md:items-start'>
             {/* MAIN HEADING */}
             <h1 className='text-white text-lg sm:text-2xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide mb-2 sm:mb-4 max-w-xs sm:max-w-2xl text-center md:text-left'>
               Providing homes to our heroes and communities in Dallas, Texas.

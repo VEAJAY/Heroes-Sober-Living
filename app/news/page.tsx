@@ -20,7 +20,7 @@ export default function NewsLetter() {
 
         {/* HERO SECTION */}
         <div className='relative flex justify-center items-center h-full px-6'>
-          <div className='p-8 mt-20 md:p-12 lg:border-5 lg:border-red-900 lg:h-[35rem] h-200 w-360 flex flex-col items-center text-center justify-center'>
+          <div className='p-8 mt-20 md:p-12 lg:border-5 lg:border-red-900 lg:h-[37rem] h-200 w-360 flex flex-col items-center text-center justify-center'>
             {/* MAIN HEADING */}
             <h1 className='text-white text-lg sm:text-3xl md:text-4xl lg:text-5xl font-serif font-bold tracking-wide sm:mb-10 max-w-2xl text-left'>
               What's New?
