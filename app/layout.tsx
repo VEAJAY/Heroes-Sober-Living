@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 import Footer from "./footer";
 
 export const metadata: Metadata = {
-  title: "Heroes Sober Living",
+  title: "Heroes & Sober Living",
   description: "Next.js Application",
 };
 

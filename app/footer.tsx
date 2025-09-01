@@ -60,17 +60,17 @@ export default function Footer() {
 
           <div className="flex items-center space-x-3">
             <Phone className="text-white !w-6 !h-6" />
-            <p className="font-sans">(469) 456-6032</p>
+            <p className="font-sans">Antwoine Burley (469) 456-6032</p>
           </div>
 
           <div className="flex items-center space-x-3">
             <Phone className="text-white !w-6 !h-6" />
-            <p className="font-sans">(903) 441-7512</p>
+            <p className="font-sans">LaWayne Rogers (903) 441-7512</p>
           </div>
 
           <div className="flex items-center space-x-3">
             <LocationOn className="text-white !w-6 !h-6" />
-            <h3>Greenville, Texas 75401</h3>
+            <h3>Fort Worth, Texas 76109</h3>
           </div>
 
           <div className="flex items-center space-x-3">

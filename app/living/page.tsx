@@ -140,17 +140,39 @@ export default function LivingOptions() {
         </h1>
         <div className="w-32 my-8 border-b-4 border-black mx-auto"></div>
 
-        <div className="grid grid-cols-1 mx-auto sm:grid-cols-2 gap-6 sm:gap-8 justify-center">
+        <div className="grid grid-cols-1 mx-auto sm:grid-cols-2 gap-6 sm:gap-2 justify-center">
+          <PlanCard
+            title="Community Living Option"
+            price="$800"
+            buttonText="Get Started"
+            link="/residents"
+            benefits={[
+              "Comfortable, fully furnished shared rooms",
+              "Access to community group activities",
+              "Transportation assistance to local appointments and events",
+            ]}
+          />
+          <PlanCard
+            title="Sober Living Option"
+            price="$1000"
+            buttonText="Get Started"
+            link="/residents"
+            benefits={[
+              "Affordable housing & private rooms for veterans",
+              "Upgraded beds for private rooms",
+              "Assistance with benefits and paperwork",
+              "Added desks and other room utilities",
+            ]}
+          />
           <PlanCard
             title="Honorary Living Option"
-            price="$1695"
+            price="$1600"
             buttonText="Get Started"
             link="/residents"
             benefits={[
               "Comfortable, fully furnished private rooms",
-              "Access to community meals and group activities",
-              "Transportation to local appointments and events",
-              "24/7 on-site staff support",
+              "Access to meal assistance and group activities",
+              "Transportation assistance to local appointments and events",
             ]}
           />
           <PlanCard
@@ -159,34 +181,9 @@ export default function LivingOptions() {
             buttonText="Get Started"
             link="/residents"
             benefits={[
-              "Spacious rooms with upgraded amenities",
-              "Personalized wellness and care plans",
-              "Priority scheduling for events and services",
-              "Premium meal options and dietary support",
-            ]}
-          />
-          <PlanCard
-            title="Veteran Living Option"
-            price="$1000"
-            buttonText="Get Started"
-            link="/residents"
-            benefits={[
-              "Affordable housing for veterans",
-              "Peer support groups and counseling",
-              "Assistance with benefits and paperwork",
-              "Community engagement programs and workshops",
-            ]}
-          />
-          <PlanCard
-            title="Executive Living Option"
-            price="$3500"
-            buttonText="Get Started"
-            link="/residents"
-            benefits={[
-              "Luxury private suites with premium furnishings",
-              "Concierge services for daily needs and errands",
-              "Personalized health and wellness programs",
-              "Exclusive access to recreational and social events",
+              "Spacious rooms with upgraded amenities (first available)",
+              "Private bathrooms included",
+              "Priority scheduling for events and transportation needs",
             ]}
           />
         </div>

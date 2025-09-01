@@ -184,7 +184,7 @@ export default function Privacy() {
             <b className="font-serif">Privacy Officer</b>
           </li>
           <li>Heroes & Sober Living</li>
-          <li>Greenville, Texas 75401</li>
+          <li>Fort Worth, Texas 76109</li>
           <li>(469) 456-6032</li>
           <li>(903) 441-7512</li>
           <li>veteranssoberliving@gmail.com</li>
