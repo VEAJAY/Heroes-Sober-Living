@@ -157,6 +157,18 @@ export default function LivingOptions() {
             ]}
           />
           <PlanCard
+            title="Sober Living Option"
+            price="$1000"
+            buttonText="Get Started"
+            link="/residents"
+            benefits={[
+              "Affordable housing & private rooms for veterans",
+              "Upgraded beds for private rooms",
+              "Assistance with benefits and paperwork",
+              "Added desks and other room utilities",
+            ]}
+          />
+          <PlanCard
             title="Honorary Living Option"
             price="$1600"
             buttonText="Get Started"
@@ -176,18 +188,6 @@ export default function LivingOptions() {
               "Spacious rooms with upgraded amenities (first available)",
               "Private bathrooms included",
               "Priority scheduling for events and transportation needs",
-            ]}
-          />
-          <PlanCard
-            title="Sober Living Option"
-            price="$2500"
-            buttonText="Get Started"
-            link="/residents"
-            benefits={[
-              "Affordable housing & private rooms for veterans",
-              "Upgraded beds for private rooms",
-              "Assistance with benefits and paperwork",
-              "Added desks and other room utilities",
             ]}
           />
         </div>
@@ -266,7 +266,7 @@ export default function LivingOptions() {
         </button>
 
         <div
-          className={`mt-4 bg-gray-900 text-white p-4 mb-12 space-y-8 text-left sm:w-[90%] overflow-hidden transition-all duration-500 ease-in-out ${
+          className={`mt-4 bg-gray-900 text-white p-4 mb-12 space-y-8 text-left sm:max-w-7xl overflow-hidden transition-all duration-500 ease-in-out ${
             isOpen ? "sm:max-h-screen opacity-100" : "max-h-0 opacity-0"
           }`}
         >
