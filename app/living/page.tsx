@@ -345,6 +345,10 @@ export default function LivingOptions() {
                 Peace of mind for families knowing loved ones are safe
               </span>
             </li>
+            <li className="flex items-start gap-2">
+              <ArrowForwardIcon className="text-white mt-1" />
+              <span>AC units provided in rooms for comfort</span>
+            </li>
           </ul>
         </div>
       </section>
