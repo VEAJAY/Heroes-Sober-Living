@@ -21,6 +21,14 @@ export const metadata: Metadata = {
     url: "https://heroessoberliving.com",
     siteName: "Heroes & Sober Living",
     type: "website",
+    images: [
+      {
+        url: "https://heroessoberliving.com/heroes-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Heroes & Sober Living",
+      },
+    ],
   },
 };
 
