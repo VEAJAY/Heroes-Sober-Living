@@ -63,7 +63,10 @@ export default function Contact() {
             <div className="font-serif sm:text-2xl text-white grid grid-cols-1 sm:gap-6">
               <div className="flex items-center space-x-3">
                 <Email className="!w-6 !h-6" />
-                <a href="mailto:veteranssoberliving@gmail.com">
+                <a
+                  href="mailto:veteranssoberliving@gmail.com"
+                  className="hover:underline"
+                >
                   veteranssoberliving@gmail.com
                 </a>
               </div>
@@ -108,9 +111,13 @@ export default function Contact() {
           <h2 className="text-white text-3xl sm:text-4xl font-serif font-bold mb-6 text-center">
             Send Us a Message
           </h2>
-          <p className="text-white sm:text-xl text-center mb-8">
-            Use the form below, or click the email above to reach out to us with
-            any questions. We'll respond as soon as possible. Thank you!
+          <p className="text-white sm:text-2xl text-center mb-8">
+            Copy our email below, or click the email link above to get in touch
+            with us for any questions, concerns, or feedback you may have. We
+            strive to respond as quickly as possible and ensure that every
+            message is addressed thoroughly. Your inquiries are important to us,
+            and we appreciate you taking the time to reach out. Thank you for
+            connecting with us!
           </p>
 
           <form
@@ -118,7 +125,7 @@ export default function Contact() {
             className="grid grid-cols-1 md:grid-cols-2 gap-6"
           >
             {/* NAME */}
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <label htmlFor="name" className="text-white text-lg mb-2">
                 Name
               </label>
@@ -130,10 +137,10 @@ export default function Contact() {
                 className="p-3 rounded-md text-gray-900 bg-white border-2 border-red-900"
                 required
               />
-            </div>
+            </div> */}
 
             {/* PHONE */}
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <label htmlFor="phone" className="text-white text-lg mb-2">
                 Phone
               </label>
@@ -144,10 +151,10 @@ export default function Contact() {
                 placeholder="(123) 456-7890"
                 className="p-3 rounded-md text-gray-900 bg-white border-2 border-red-900"
               />
-            </div>
+            </div> */}
 
             {/* REASON */}
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <label htmlFor="reason" className="text-white text-lg mb-2">
                 Reason for Contact
               </label>
@@ -164,10 +171,10 @@ export default function Contact() {
                 <option value="admissions">Admissions</option>
                 <option value="support">Support</option>
               </select>
-            </div>
+            </div> */}
 
             {/* EMAIL */}
-            <div className="flex flex-col">
+            {/* <div className="flex flex-col">
               <label htmlFor="email" className="text-white text-lg mb-2">
                 Email
               </label>
@@ -179,10 +186,10 @@ export default function Contact() {
                 className="p-3 rounded-md text-gray-900 bg-white border-2 border-red-900"
                 required
               />
-            </div>
+            </div> */}
 
             {/* MESSAGE */}
-            <div className="flex flex-col md:col-span-2">
+            {/* <div className="flex flex-col md:col-span-2">
               <label htmlFor="message" className="text-white text-lg mb-2">
                 Message
               </label>
@@ -194,18 +201,24 @@ export default function Contact() {
                 className="p-3 rounded-md text-gray-900 bg-white border-2 border-red-900"
                 required
               />
-            </div>
+            </div> */}
 
             {/* SUBMIT */}
-            <div className="md:col-span-2 flex justify-center">
-              <button
-                type="submit"
-                className="bg-red-700 hover:bg-red-800 text-white text-lg py-3 px-6 rounded-md transition"
-              >
-                Send Message
-              </button>
-            </div>
+            {/* <div className="md:col-span-2 flex justify-center">
+              <a href="mailto:veteranssoberliving@gmail.com?subject=NEW%20CONTACT">
+                <button className="bg-red-700 hover:bg-red-800 text-white text-lg py-3 px-6 rounded-md transition">
+                  Send Us a Message
+                </button>
+              </a>
+            </div> */}
           </form>
+          <div className="md:col-span-2 flex justify-center">
+            <a href="mailto:veteranssoberliving@gmail.com?subject=NEW%20CONTACT">
+              <button className="bg-red-700 hover:bg-red-800 text-white text-lg py-3 px-6 rounded-md transition">
+                Send Us a Message
+              </button>
+            </a>
+          </div>
         </div>
       </section>
     </div>
