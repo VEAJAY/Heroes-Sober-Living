@@ -63,7 +63,9 @@ export default function Contact() {
             <div className="font-serif sm:text-2xl text-white grid grid-cols-1 sm:gap-6">
               <div className="flex items-center space-x-3">
                 <Email className="!w-6 !h-6" />
-                <p>veteranssoberliving@gmail.com</p>
+                <a href="mailto:veteranssoberliving@gmail.com">
+                  veteranssoberliving@gmail.com
+                </a>
               </div>
 
               <div className="flex items-center space-x-3">
@@ -107,8 +109,8 @@ export default function Contact() {
             Send Us a Message
           </h2>
           <p className="text-white sm:text-xl text-center mb-8">
-            Use the form below to reach out to us with any questions. We'll
-            respond as soon as possible.
+            Use the form below, or click the email above to reach out to us with
+            any questions. We'll respond as soon as possible. Thank you!
           </p>
 
           <form

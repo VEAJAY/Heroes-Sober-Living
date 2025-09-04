@@ -55,7 +55,9 @@ export default function Footer() {
         <div className="flex flex-col text-left space-y-4 text-lg font-serif">
           <div className="flex items-center space-x-3">
             <Email className="text-white !w-6 !h-6" />
-            <p>veteranssoberliving@gmail.com</p>
+            <a href="mailto:veteranssoberliving@gmail.com">
+              veteranssoberliving@gmail.com
+            </a>
           </div>
 
           <div className="flex items-center space-x-3">
