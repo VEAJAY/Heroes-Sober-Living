@@ -65,13 +65,6 @@ export default function Footer() {
 
           <div className="flex items-center space-x-3">
             <Phone className="text-white !w-6 !h-6" />
-            <a href="tel:+14694566032" className="font-sans hover:underline">
-              Antwoine Burley (469) 456-6032
-            </a>
-          </div>
-
-          <div className="flex items-center space-x-3">
-            <Phone className="text-white !w-6 !h-6" />
             <a href="tel:+19034417512" className="font-sans hover:underline">
               LaWayne Rogers (903) 441-7512
             </a>
