@@ -18,12 +18,12 @@ export default function Footer() {
           >
             About
           </Link>
-          <Link
+          {/* <Link
             href="/residents"
             className="hover:text-gray-400 transition-colors duration-200"
           >
             Residents
-          </Link>
+          </Link> */}
           <Link
             href="/contact"
             className="hover:text-gray-400 transition-colors duration-200"

@@ -54,12 +54,12 @@ export default function Navbar() {
         >
           News Letter
         </Link>
-        <Link
+        {/* <Link
           href="/residents"
           className="hover:text-gray-400 transition-colors duration-200"
         >
           Residents
-        </Link>
+        </Link> */}
       </div>
 
       {/* DESKTOP CONTACT */}
@@ -136,13 +136,13 @@ export default function Navbar() {
             >
               News Letter
             </Link>
-            <Link
+            {/* <Link
               href="/residents"
               onClick={() => setMenuOpen(false)}
               className="text-white text-xl font-serif hover:text-gray-400"
             >
               Residents
-            </Link>
+            </Link> */}
             <Link
               href="/contact"
               onClick={() => setMenuOpen(false)}
